@@ -1,0 +1,1 @@
+<!DOCTYPE html><html>	<head>		<title><%text%></title>		<meta charset='utf-8'> 		<%rssLink ()%>		<%googleAnalytics ()%>		<%useBootstrap%>		<%useSmallPictStyles%>		<%customStylesScripts%>		<%userStyles ()%>		</head>	<body>		<%menu ()%>		<div class="divFargoMarkdownBody">			<%bodytext%>			</div>		</body>	</html>
