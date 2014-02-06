@@ -1,0 +1,210 @@
+<?xml encoding="ISO-8859-1" version="1.0"?>
+<opml version="2.0">
+	<head>
+		<title>Template</title>
+		<ownerName>Dave Winer</ownerName>
+		<ownerEmail>dave.winer@gmail.com</ownerEmail>
+		</head>
+	<body>
+		<outline text="&lt;!DOCTYPE html&gt;"></outline>
+		<outline text="&lt;html&gt;">
+			<outline text="&lt;head&gt;">
+				<outline text="&lt;title&gt;&lt;%text%&gt;&lt;/title&gt;"></outline>
+				<outline text="&lt;meta charset='utf-8'&gt; "></outline>
+				<outline text="&lt;%rssLink ()%&gt;"></outline>
+				<outline text="&lt;%googleAnalytics ()%&gt;"></outline>
+				<outline text="&lt;%useBootstrap%&gt;"></outline>
+				<outline text="&lt;%useSmallPictStyles%&gt;"></outline>
+				<outline text="&lt;%customStylesScripts%&gt;"></outline>
+				<outline text=""></outline>
+				<outline text="&lt;meta property=&quot;og:url&quot; content=&quot;&lt;%url%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;"></outline>
+				<outline text="&lt;meta property=&quot;og:title&quot; content=&quot;&lt;%text%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta property=&quot;og:description&quot; content=&quot;&lt;%description%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta property=&quot;og:image&quot; content=&quot;&lt;%backgroundImage%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta property=&quot;og:site_name&quot; content=&quot;&lt;%opmlLongTitle%&gt;&quot; /&gt;"></outline>
+				<outline created="Fri, 20 Dec 2013 00:18:21 GMT" pgfnum="33993" text=""></outline>
+				<outline text="&lt;meta name=&quot;twitter:card&quot; value=&quot;summary&quot;&gt;"></outline>
+				<outline text="&lt;meta name=&quot;twitter:title&quot; content=&quot;&lt;%text%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta name=&quot;twitter:url&quot; content=&quot;&lt;%url%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta name=&quot;twitter:description&quot; content=&quot;&lt;%description%&gt;&quot; /&gt;"></outline>
+				<outline text="&lt;meta name=&quot;twitter:image&quot; content=&quot;&lt;%backgroundImage%&gt;&quot;/&gt;"></outline>
+				<outline text="&lt;meta name=&quot;twitter:site&quot; value=&quot;&lt;%authorTwitterAccount%&gt;&quot;&gt;"></outline>
+				<outline created="Fri, 20 Dec 2013 00:04:24 GMT" pgfnum="33989" text=""></outline>
+				<outline text=""></outline>
+				<outline text="&lt;style&gt;">
+					<outline text=".divWholePage {">
+						<outline text="position: absolute;"></outline>
+						<outline text="top: 0;"></outline>
+						<outline text="left: 0;"></outline>
+						<outline text="right: 0;"></outline>
+						<outline text="bottom: 0;"></outline>
+						<outline text="-webkit-background-size: cover;"></outline>
+						<outline text="-moz-background-size: cover;"></outline>
+						<outline text="-o-background-size: cover;"></outline>
+						<outline text="background-size: cover;"></outline>
+						<outline text="background-position: center;"></outline>
+						<outline text="max-height: 400px;"></outline>
+						<outline created="Sat, 14 Dec 2013 22:05:27 GMT" pgfnum="33659" text=""></outline>
+						<outline created="Sat, 14 Dec 2013 22:05:27 GMT" pgfnum="33660" text="background-repeat: no-repeat;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline created="Thu, 26 Dec 2013 18:11:18 GMT" pgfnum="34525" text=".divMapCanvas {">
+						<outline created="Thu, 26 Dec 2013 18:11:52 GMT" pgfnum="34533" text="position: absolute; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:49 GMT" pgfnum="34532" text="top: 0; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:43 GMT" pgfnum="34530" text="left: 0; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:46 GMT" pgfnum="34531" text="bottom: 0; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:39 GMT" pgfnum="34529" text="right: 0; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:25 GMT" pgfnum="34526" text="width: 100%; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:56 GMT" pgfnum="34534" text="height: 400px; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:35 GMT" pgfnum="34528" text="z-index: -10;"></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:26 GMT" pgfnum="34527" text="}"></outline>
+						</outline>
+					<outline text=".divPageTopText {">
+						<outline text="width: 70%; "></outline>
+						<outline text="margin-left: auto;"></outline>
+						<outline text="margin-right: auto;"></outline>
+						<outline text="margin-top: 190px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".h1PostTitle {">
+						<outline text="font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, &quot;Lucida Sans&quot;, Geneva,Verdana, sans-serif;"></outline>
+						<outline text="letter-spacing: -0.02em;"></outline>
+						<outline text="font-weight: 700;"></outline>
+						<outline text="font-style: normal;"></outline>
+						<outline text="letter-spacing: -0.04em;"></outline>
+						<outline text="font-size: 50px;"></outline>
+						<outline text="line-height: 1.1;"></outline>
+						<outline text="margin-bottom: 8px;"></outline>
+						<outline created="Tue, 24 Dec 2013 23:39:27 GMT" pgfnum="34426" text="color: white;"></outline>
+						<outline text="text-shadow: 1px 1px #000000;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".h2PostDescription {">
+						<outline text="font-family: &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, &quot;Lucida Sans&quot;, Geneva, Verdana, sans-serif;"></outline>
+						<outline text="letter-spacing: -0.02em;"></outline>
+						<outline text="font-weight: 300;"></outline>
+						<outline text="font-style: normal;"></outline>
+						<outline text="font-size: 30px;"></outline>
+						<outline text="line-height: 1.1;"></outline>
+						<outline text="color: silver;"></outline>
+						<outline text="margin: 0;"></outline>
+						<outline text="text-shadow: 1px 1px #000000;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divBodyText {">
+						<outline text="font-family: Georgia, Cambria, &quot;Times New Roman&quot;, Times, serif;"></outline>
+						<outline text="letter-spacing: .01rem;"></outline>
+						<outline text="font-weight: 400;"></outline>
+						<outline text="font-style: normal;"></outline>
+						<outline text="font-size: 22px;"></outline>
+						<outline text="line-height: 1.5;"></outline>
+						<outline text=""></outline>
+						<outline text="display: block;"></outline>
+						<outline text="width: 55%;"></outline>
+						<outline text="position: relative;"></outline>
+						<outline text="margin-top: 150px;"></outline>
+						<outline text="margin-bottom: 0;"></outline>
+						<outline text="margin-left: auto;"></outline>
+						<outline text="margin-right: auto;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divFooter {">
+						<outline created="Tue, 24 Dec 2013 23:42:27 GMT" pgfnum="34430" text="font-family: Arial;"></outline>
+						<outline created="Tue, 24 Dec 2013 23:42:32 GMT" pgfnum="34431" text="font-size: 13px;"></outline>
+						<outline text="width: 55%;"></outline>
+						<outline text="margin-left: auto;"></outline>
+						<outline text="margin-right: auto;"></outline>
+						<outline created="Tue, 24 Dec 2013 23:42:04 GMT" pgfnum="34429" text="margin-top: 80px;"></outline>
+						<outline text="min-height: 300px;"></outline>
+						<outline created="Tue, 24 Dec 2013 23:43:39 GMT" pgfnum="34432" text="line-height: 130%;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divComments {">
+						<outline text="width: 55%;"></outline>
+						<outline text="margin-left: auto;"></outline>
+						<outline text="margin-right: auto;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text="&lt;/style&gt;"></outline>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline text="function startup () {">
+						<outline created="Tue, 24 Dec 2013 18:28:28 GMT" pgfnum="34371" text="startupFargoPlatform (); "></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
+				<outline text="&lt;/head&gt;"></outline>
+				</outline>
+			<outline text="&lt;body&gt;">
+				<outline text="&lt;div class=&quot;snap-drawers&quot;&gt;">
+					<outline text="&lt;div class=&quot;snap-drawer snap-drawer-left&quot; id=&quot;idSnapDrawerDiv&quot;&gt;">
+						<outline created="Sat, 21 Dec 2013 15:58:43 GMT" pgfnum="34090" text="&lt;%menuAsList ()%&gt;"></outline>
+						<outline created="Tue, 24 Dec 2013 18:20:16 GMT" pgfnum="34367" text=""></outline>
+						<outline created="Tue, 24 Dec 2013 18:41:32 GMT" pgfnum="34390" text="&lt;center&gt;">
+							<outline created="Tue, 24 Dec 2013 18:20:16 GMT" pgfnum="34368" text="&lt;div class=&quot;divSocialMediaLinks&quot;&gt;">
+								<outline text="&lt;a id=&quot;idTwitterLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-twitter&quot; style=&quot;color: #4099FF; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
+								<outline text="&lt;a id=&quot;idFacebookLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-facebook&quot; style=&quot;color: #4C66A4; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
+								<outline text="&lt;a id=&quot;idRssLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-rss&quot; style=&quot;color: orange; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
+								<outline created="Tue, 24 Dec 2013 18:20:29 GMT" pgfnum="34369" text="&lt;/div&gt;"></outline>
+								</outline>
+							<outline created="Tue, 24 Dec 2013 18:41:37 GMT" pgfnum="34391" text="&lt;/center&gt;"></outline>
+							</outline>
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
+					<outline text="&lt;div class=&quot;snap-drawer snap-drawer-right&quot;&gt;&lt;/div&gt;"></outline>
+					<outline text="&lt;/div&gt;"></outline>
+					</outline>
+				<outline text="&lt;div id=&quot;idSnapContent&quot; class=&quot;snap-content&quot;&gt;">
+					<outline created="Thu, 19 Dec 2013 22:38:45 GMT" pgfnum="33954" text="&lt;a href=&quot;#&quot; id=&quot;idSnapOpenIcon&quot; style=&quot;z-index: 100;  position: relative;&quot;&gt;&lt;/a&gt;"></outline>
+					<outline text="&lt;div class=&quot;divWholePage&quot; id=&quot;idWholePage&quot;&gt;">
+						<outline text="&lt;div class=&quot;divMapCanvas&quot; id=&quot;idMapCanvas&quot;&gt;&lt;/div&gt;"></outline>
+						<outline text="&lt;div class=&quot;divPageTopText&quot; id=&quot;idPageTopText&quot;&gt;">
+							<outline text="&lt;h1 class=&quot;h1PostTitle&quot; id=&quot;idPostTitle&quot;&gt;&lt;/h1&gt;"></outline>
+							<outline text="&lt;h2 class=&quot;h2PostDescription&quot; id=&quot;idPostDescription&quot;&gt;&lt;/h2&gt;"></outline>
+							<outline text="&lt;/div&gt;"></outline>
+							</outline>
+						<outline text="&lt;div class=&quot;divBodyText&quot; id=&quot;idBodyText&quot;&gt;">
+							<outline text="&lt;%bodytext%&gt;"></outline>
+							<outline text="&lt;/div&gt;"></outline>
+							</outline>
+						<outline text="&lt;div class=&quot;divFooter&quot;&gt;">
+							<outline created="Tue, 24 Dec 2013 23:40:45 GMT" pgfnum="34427" text="&lt;hr&gt;"></outline>
+							<outline created="Thu, 26 Dec 2013 16:46:10 GMT" pgfnum="34492" text="&lt;p&gt;By &lt;%byline ()%&gt;, &lt;%formatDate (pagetable.created)%&gt;. Last built on &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;. &lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/p&gt;"></outline>
+							<outline created="Wed, 25 Dec 2013 23:22:19 GMT" isComment="true" pgfnum="34491" text="&lt;p style=&quot;letter-spacing: 8px; font-size: 1.3em;&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/p&gt;"></outline>
+							<outline text="&lt;/div&gt;"></outline>
+							</outline>
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
+					<outline text="&lt;/div&gt;"></outline>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline created="Thu, 19 Dec 2013 22:43:22 GMT" isComment="true" pgfnum="33955" text="var flSnapperOpen = false;"></outline>
+					<outline created="Thu, 19 Dec 2013 22:43:30 GMT" isComment="true" pgfnum="33956" text=""></outline>
+					<outline isComment="true" text="var snapper = new Snap ({">
+						<outline text="element: document.getElementById (&quot;idSnapContent&quot;)"></outline>
+						<outline text="});"></outline>
+						</outline>
+					<outline created="Thu, 19 Dec 2013 22:34:21 GMT" isComment="true" pgfnum="33948" text="document.getElementById (&quot;open-left&quot;).addEventListener (&quot;click&quot;, function () {">
+						<outline created="Thu, 19 Dec 2013 22:43:38 GMT" pgfnum="33957" text="if (flSnapperOpen) {">
+							<outline created="Thu, 19 Dec 2013 22:35:23 GMT" pgfnum="33951" text="snapper.close (&quot;left&quot;);"></outline>
+							<outline created="Thu, 19 Dec 2013 22:43:41 GMT" pgfnum="33958" text="}"></outline>
+							</outline>
+						<outline created="Thu, 19 Dec 2013 22:43:42 GMT" pgfnum="33959" text="else {">
+							<outline created="Thu, 19 Dec 2013 22:35:23 GMT" pgfnum="33951" text="snapper.open (&quot;left&quot;);"></outline>
+							<outline created="Thu, 19 Dec 2013 22:43:48 GMT" pgfnum="33960" text="}"></outline>
+							</outline>
+						<outline text="flSnapperOpen = !flSnapperOpen;"></outline>
+						<outline created="Thu, 19 Dec 2013 22:35:33 GMT" pgfnum="33952" text="});"></outline>
+						</outline>
+					<outline created="Thu, 19 Dec 2013 22:36:12 GMT" pgfnum="33953" text=""></outline>
+					<outline text="startup ();"></outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
+				<outline text="&lt;/body&gt;"></outline>
+				</outline>
+			<outline text="&lt;/html&gt;"></outline>
+			</outline>
+		</body>
+	</opml>
