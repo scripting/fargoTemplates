@@ -1,7 +1,6 @@
-<?xml encoding="ISO-8859-1" version="1.0"?>
 <opml version="2.0">
 	<head>
-		<title>Template</title>
+		<title>outline.opml</title>
 		<ownerName>Dave Winer</ownerName>
 		<ownerEmail>dave.winer@gmail.com</ownerEmail>
 		</head>
@@ -41,7 +40,7 @@
 							<outline text="&lt;hr&gt;"></outline>
 							<outline text="&lt;p style=&quot;float: right;&quot;&gt;Last built: &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;&lt;/p&gt;"></outline>
 							<outline text="&lt;%disqusComments ()%&gt;"></outline>
-							<outline text="&lt;div class=&quot;divByline&quot; id=&quot;idByline&quot;&gt;By &lt;%byline ()%&gt;, &lt;span id=&quot;idWhenCreated&quot;&gt;&lt;%formatDate (pagetable.created)%&gt;&lt;/span&gt;.&lt;/div&gt;"></outline>
+							<outline text="&lt;div class=&quot;divByline&quot; id=&quot;idByline&quot;&gt;By &lt;%byline ()%&gt;, &lt;span id=&quot;idWhenCreated&quot;&gt;&lt;%formatDate (pagetable.created)%&gt;&lt;/span&gt;.  &lt;span style=&quot;float: right;&quot;&gt;&lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;"></outline>
 							<outline text="&lt;/div&gt;"></outline>
 							</outline>
 						<outline text="&lt;/div&gt;"></outline>

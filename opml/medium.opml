@@ -1,7 +1,6 @@
-<?xml encoding="ISO-8859-1" version="1.0"?>
 <opml version="2.0">
 	<head>
-		<title>Template</title>
+		<title>medium.opml</title>
 		<ownerName>Dave Winer</ownerName>
 		<ownerEmail>dave.winer@gmail.com</ownerEmail>
 		</head>
@@ -144,9 +143,9 @@
 						<outline created="Tue, 24 Dec 2013 18:20:16 GMT" pgfnum="34367" text=""></outline>
 						<outline created="Tue, 24 Dec 2013 18:41:32 GMT" pgfnum="34390" text="&lt;center&gt;">
 							<outline created="Tue, 24 Dec 2013 18:20:16 GMT" pgfnum="34368" text="&lt;div class=&quot;divSocialMediaLinks&quot;&gt;">
-								<outline text="&lt;a id=&quot;idTwitterLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-twitter&quot; style=&quot;color: #4099FF; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
-								<outline text="&lt;a id=&quot;idFacebookLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-facebook&quot; style=&quot;color: #4C66A4; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
-								<outline text="&lt;a id=&quot;idRssLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;icon-rss&quot; style=&quot;color: orange; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
+								<outline text="&lt;a id=&quot;idTwitterLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot; style=&quot;color: #4099FF; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
+								<outline text="&lt;a id=&quot;idFacebookLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot; style=&quot;color: #4C66A4; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
+								<outline text="&lt;a id=&quot;idRssLink&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-rss&quot; style=&quot;color: orange; font-weight: bold;&quot;&gt;&lt;/i&gt;&lt;/a&gt;"></outline>
 								<outline created="Tue, 24 Dec 2013 18:20:29 GMT" pgfnum="34369" text="&lt;/div&gt;"></outline>
 								</outline>
 							<outline created="Tue, 24 Dec 2013 18:41:37 GMT" pgfnum="34391" text="&lt;/center&gt;"></outline>
