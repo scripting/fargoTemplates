@@ -11,10 +11,65 @@
 			<outline text="&lt;head&gt;">
 				<outline text="&lt;title&gt;&lt;%text%&gt;&lt;/title&gt;"></outline>
 				<outline text="&lt;meta charset='utf-8'&gt; "></outline>
+				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
 				<outline text="&lt;%rssLink ()%&gt;"></outline>
 				<outline text="&lt;%googleAnalytics ()%&gt;"></outline>
 				<outline text="&lt;%useBootstrap%&gt;"></outline>
 				<outline text="&lt;%useSmallPictStyles%&gt;"></outline>
+				<outline created="Sun, 09 Mar 2014 19:11:13 GMT" pgfnum="38719" text="&lt;style&gt;">
+					<outline text="@media only screen "></outline>
+					<outline text="and (min-device-width : 320px) "></outline>
+					<outline text="and (max-device-width : 480px) {">
+						<outline created="Wed, 12 Mar 2014 14:39:36 GMT" pgfnum="39018" text=".navbar .nav&gt;li {">
+							<outline created="Wed, 12 Mar 2014 14:39:39 GMT" pgfnum="39019" text="display: none;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:41:30 GMT" pgfnum="39021" text="height: 0;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:39:42 GMT" pgfnum="39020" text="}"></outline>
+							</outline>
+						<outline text=".divFargoSocialMediaLinks {">
+							<outline created="Wed, 12 Mar 2014 14:39:39 GMT" pgfnum="39019" text="display: none;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:39:42 GMT" pgfnum="39020" text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:00:44 GMT" pgfnum="38996" text=".container {">
+							<outline created="Wed, 12 Mar 2014 14:42:38 GMT" pgfnum="39022" text="margin-top: 10px;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:00:56 GMT" pgfnum="38998" text="width: 90%;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:00:50 GMT" pgfnum="38997" text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:07:38 GMT" pgfnum="38999" text=".divFargoMarkdown p {">
+							<outline created="Wed, 12 Mar 2014 14:07:42 GMT" pgfnum="39000" text="font-size: 17px;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:13:42 GMT" pgfnum="39002" text="line-height: 140%;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:07:47 GMT" pgfnum="39001" text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:23:15 GMT" pgfnum="39003" text="h2 {">
+							<outline created="Wed, 12 Mar 2014 14:23:18 GMT" pgfnum="39004" text="font-size: 24px;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:13:42 GMT" pgfnum="39002" text="line-height: 140%;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:23:20 GMT" pgfnum="39005" text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:25:17 GMT" pgfnum="39006" text=".divHeadlineUnit {">
+							<outline created="Wed, 12 Mar 2014 14:25:20 GMT" pgfnum="39007" text="margin-bottom: 5px;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:25:25 GMT" pgfnum="39008" text="}"></outline>
+							</outline>
+						<outline text=".divPrevNext {">
+							<outline text="float: none;"></outline>
+							<outline text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:31:03 GMT" pgfnum="39010" text=".divBreadcrumbs {">
+							<outline created="Wed, 12 Mar 2014 14:35:22 GMT" pgfnum="39017" text="display: none;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:31:11 GMT" pgfnum="39012" text="font-size: 15px;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:31:07 GMT" pgfnum="39011" text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:32:05 GMT" pgfnum="39013" text=".breadcrumb&gt;li&gt;.divider {">
+							<outline created="Wed, 12 Mar 2014 14:32:24 GMT" pgfnum="39015" text="padding: 0;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:32:32 GMT" pgfnum="39016" text="padding-left: 1px;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:32:07 GMT" pgfnum="39014" text="}"></outline>
+							</outline>
+						<outline created="Wed, 12 Mar 2014 14:46:59 GMT" pgfnum="39023" text=".spSlogan {">
+							<outline created="Wed, 12 Mar 2014 14:47:01 GMT" pgfnum="39024" text="display: none;"></outline>
+							<outline created="Wed, 12 Mar 2014 14:47:05 GMT" pgfnum="39025" text="}"></outline>
+							</outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline created="Sun, 09 Mar 2014 19:11:22 GMT" pgfnum="38720" text="&lt;/style&gt;"></outline>
+					</outline>
 				<outline text="&lt;%customStylesScripts%&gt;"></outline>
 				<outline created="Sat, 04 Jan 2014 18:28:57 GMT" pgfnum="35309" text="&lt;%userStyles ()%&gt;"></outline>
 				<outline text="&lt;/head&gt;"></outline>

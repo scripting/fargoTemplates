@@ -11,6 +11,7 @@
 			<outline text="&lt;head&gt;">
 				<outline text="&lt;title&gt;&lt;%text%&gt;&lt;/title&gt;"></outline>
 				<outline text="&lt;meta charset='utf-8'&gt; "></outline>
+				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
 				<outline text="&lt;%rssLink ()%&gt;"></outline>
 				<outline text="&lt;%googleAnalytics ()%&gt;"></outline>
 				<outline text="&lt;%useBootstrap%&gt;"></outline>
