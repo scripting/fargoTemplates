@@ -71,41 +71,94 @@
 						</outline>
 					<outline created="Sun, 09 Mar 2014 19:11:22 GMT" pgfnum="38720" text="&lt;/style&gt;"></outline>
 					</outline>
+				<outline created="Mon, 17 Mar 2014 23:27:01 GMT" pgfnum="39469" text="&lt;style&gt;">
+					<outline created="Sun, 09 Mar 2014 22:12:28 GMT" pgfnum="38758" text=".divOutlineImage {">
+						<outline text="height: 100%;"></outline>
+						<outline text="width: 100%;"></outline>
+						<outline text="position: absolute;"></outline>
+						<outline text="right: 0;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:24:57 GMT" pgfnum="38795" text=""></outline>
+						<outline text="-webkit-background-size: cover;"></outline>
+						<outline text="-moz-background-size: cover;"></outline>
+						<outline text="-o-background-size: cover;"></outline>
+						<outline text="background-size: cover;"></outline>
+						<outline text="background-position: center;"></outline>
+						<outline text="background-repeat: no-repeat;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:25:59 GMT" pgfnum="38796" text=""></outline>
+						<outline created="Mon, 10 Mar 2014 03:25:59 GMT" pgfnum="38797" text="z-index: -1;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:26:20 GMT" pgfnum="38798" text="opacity: 1;"></outline>
+						<outline created="Sun, 09 Mar 2014 22:12:34 GMT" pgfnum="38759" text="}"></outline>
+						</outline>
+					<outline created="Mon, 10 Mar 2014 16:45:26 GMT" pgfnum="38833" text=".divTextInFrontOfImage {">
+						<outline text="background-color: white; "></outline>
+						<outline created="Mon, 10 Mar 2014 16:45:40 GMT" pgfnum="38835" text="opacity: .90;"></outline>
+						<outline created="Mon, 10 Mar 2014 22:48:36 GMT" pgfnum="38889" text="padding: 1.5em;"></outline>
+						<outline created="Mon, 10 Mar 2014 17:08:03 GMT" pgfnum="38842" text="border:2px solid whitesmoke;"></outline>
+						<outline created="Mon, 10 Mar 2014 16:45:33 GMT" pgfnum="38834" text="}"></outline>
+						</outline>
+					<outline created="Tue, 18 Mar 2014 21:41:05 GMT" pgfnum="39524" text=".spSlogan {">
+						<outline created="Tue, 18 Mar 2014 21:41:07 GMT" pgfnum="39525" text="display: none;"></outline>
+						<outline created="Tue, 18 Mar 2014 21:41:11 GMT" pgfnum="39526" text="}"></outline>
+						</outline>
+					<outline created="Mon, 17 Mar 2014 23:27:04 GMT" pgfnum="39471" text="&lt;/style&gt;"></outline>
+					</outline>
 				<outline text="&lt;%customStylesScripts%&gt;"></outline>
 				<outline created="Sat, 04 Jan 2014 18:28:57 GMT" pgfnum="35309" text="&lt;%userStyles ()%&gt;"></outline>
+				<outline created="Mon, 17 Mar 2014 23:24:51 GMT" pgfnum="39463" text="&lt;script&gt;">
+					<outline created="Mon, 17 Mar 2014 23:24:54 GMT" pgfnum="39464" text="function startupOutlineTemplate () {">
+						<outline created="Mon, 17 Mar 2014 23:25:02 GMT" pgfnum="39466" text="if (pagetable.backgroundImage != undefined) {">
+							<outline created="Tue, 05 Feb 2013 01:08:38 GMT" pgfnum="18247" text="var textInFront = document.getElementById (&quot;idTextInFrontOfImage&quot;); "></outline>
+							<outline created="Mon, 17 Mar 2014 23:30:34 GMT" pgfnum="39472" text="textInFront.className = &quot;divTextInFrontOfImage&quot;;"></outline>
+							<outline created="Mon, 17 Mar 2014 23:35:52 GMT" pgfnum="39475" text=""></outline>
+							<outline created="Mon, 17 Mar 2014 23:35:52 GMT" pgfnum="39476" text="var outlineImage = document.getElementById (&quot;idOutlineImage&quot;); "></outline>
+							<outline created="Mon, 17 Mar 2014 23:36:34 GMT" pgfnum="39477" text="outlineImage.className = &quot;divOutlineImage&quot;;"></outline>
+							<outline created="Mon, 17 Mar 2014 23:36:49 GMT" pgfnum="39478" text="outlineImage.style.backgroundImage = &quot;url(\&quot;&quot; + pagetable.backgroundImage + &quot;\&quot;)&quot;;"></outline>
+							<outline created="Mon, 17 Mar 2014 23:25:12 GMT" pgfnum="39467" text="}"></outline>
+							</outline>
+						<outline created="Mon, 17 Mar 2014 23:24:58 GMT" pgfnum="39465" text="}"></outline>
+						</outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
 				<outline text="&lt;/head&gt;"></outline>
 				</outline>
 			<outline text="&lt;body&gt;">
 				<outline created="Wed, 25 Dec 2013 00:29:58 GMT" pgfnum="34474" text="&lt;div class=&quot;divFargoSocialMediaLinks&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/div&gt;"></outline>
 				<outline text="&lt;%menu ()%&gt;"></outline>
 				<outline text="&lt;div class=&quot;divFargoOutlineBody&quot;&gt;">
-					<outline text="&lt;div id=&quot;idOutlineContainer&quot; class=&quot;container&quot;&gt;">
-						<outline text="&lt;div class=&quot;divHeadlineUnit&quot; id=&quot;idHeadlineUnit&quot;&gt;">
-							<outline created="Fri, 29 Nov 2013 18:56:07 GMT" pgfnum="32589" text="&lt;div class=&quot;divPrevNext&quot;&gt;">
-								<outline created="Fri, 29 Nov 2013 18:56:23 GMT" pgfnum="32591" text="&lt;%prevNextLinks ()%&gt;"></outline>
-								<outline created="Fri, 29 Nov 2013 18:56:21 GMT" pgfnum="32590" text="&lt;/div&gt;"></outline>
-								</outline>
-							<outline text="&lt;div class=&quot;divBreadcrumbs&quot; id=&quot;idBreadcrumbs&quot;&gt;">
-								<outline text="&lt;%breadcrumbs ()%&gt;"></outline>
+					<outline created="Mon, 17 Mar 2014 23:35:08 GMT" pgfnum="39473" text="&lt;div id=&quot;idOutlineImage&quot;&gt;">
+						<outline text="&lt;div id=&quot;idOutlineContainer&quot; class=&quot;container&quot;&gt;">
+							<outline created="Mon, 17 Mar 2014 23:22:24 GMT" pgfnum="39460" text="&lt;div id=&quot;idTextInFrontOfImage&quot;&gt;">
+								<outline text="&lt;div class=&quot;divHeadlineUnit&quot; id=&quot;idHeadlineUnit&quot;&gt;">
+									<outline created="Fri, 29 Nov 2013 18:56:07 GMT" pgfnum="32589" text="&lt;div class=&quot;divPrevNext&quot;&gt;">
+										<outline created="Fri, 29 Nov 2013 18:56:23 GMT" pgfnum="32591" text="&lt;%prevNextLinks ()%&gt;"></outline>
+										<outline created="Fri, 29 Nov 2013 18:56:21 GMT" pgfnum="32590" text="&lt;/div&gt;"></outline>
+										</outline>
+									<outline text="&lt;div class=&quot;divBreadcrumbs&quot; id=&quot;idBreadcrumbs&quot;&gt;">
+										<outline text="&lt;%breadcrumbs ()%&gt;"></outline>
+										<outline text="&lt;/div&gt;"></outline>
+										</outline>
+									<outline text="&lt;h2&gt;&lt;%text%&gt;&lt;/h2&gt;"></outline>
+									<outline text="&lt;/div&gt;"></outline>
+									</outline>
+								<outline text="&lt;%bodytext%&gt;"></outline>
+								<outline text="&lt;div class=&quot;divFooterText&quot;&gt;">
+									<outline text="&lt;hr&gt;"></outline>
+									<outline text="&lt;p style=&quot;float: right;&quot;&gt;Last built: &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;&lt;/p&gt;"></outline>
+									<outline text="&lt;%disqusComments ()%&gt;"></outline>
+									<outline text="&lt;div class=&quot;divByline&quot; id=&quot;idByline&quot;&gt;By &lt;%byline ()%&gt;, &lt;span id=&quot;idWhenCreated&quot;&gt;&lt;%formatDate (pagetable.created)%&gt;&lt;/span&gt;.  &lt;span class=&quot;spSlogan&quot; style=&quot;float: right;&quot;&gt;&lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;"></outline>
+									<outline text="&lt;/div&gt;"></outline>
+									</outline>
 								<outline text="&lt;/div&gt;"></outline>
+								<outline created="Mon, 17 Mar 2014 23:22:34 GMT" pgfnum="39461" text="&lt;/div&gt;"></outline>
 								</outline>
-							<outline text="&lt;h2&gt;&lt;%text%&gt;&lt;/h2&gt;"></outline>
-							<outline text="&lt;/div&gt;"></outline>
 							</outline>
-						<outline text="&lt;%bodytext%&gt;"></outline>
-						<outline text="&lt;div class=&quot;divFooterText&quot;&gt;">
-							<outline text="&lt;hr&gt;"></outline>
-							<outline text="&lt;p style=&quot;float: right;&quot;&gt;Last built: &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;&lt;/p&gt;"></outline>
-							<outline text="&lt;%disqusComments ()%&gt;"></outline>
-							<outline text="&lt;div class=&quot;divByline&quot; id=&quot;idByline&quot;&gt;By &lt;%byline ()%&gt;, &lt;span id=&quot;idWhenCreated&quot;&gt;&lt;%formatDate (pagetable.created)%&gt;&lt;/span&gt;.  &lt;span class=&quot;spSlogan&quot; style=&quot;float: right;&quot;&gt;&lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;"></outline>
-							<outline text="&lt;/div&gt;"></outline>
-							</outline>
-						<outline text="&lt;/div&gt;"></outline>
+						<outline created="Mon, 17 Mar 2014 23:38:42 GMT" pgfnum="39479" text="&lt;/div&gt;"></outline>
 						</outline>
 					<outline created="Wed, 27 Nov 2013 18:13:05 GMT" pgfnum="32433" text="&lt;/div&gt;"></outline>
 					</outline>
 				<outline text="&lt;script&gt;">
 					<outline text="startupFargoPlatform ();"></outline>
+					<outline created="Mon, 17 Mar 2014 23:24:41 GMT" pgfnum="39462" text="startupOutlineTemplate ();"></outline>
 					<outline text="&lt;/script&gt;"></outline>
 					</outline>
 				<outline text="&lt;/body&gt;"></outline>
