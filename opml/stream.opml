@@ -15,8 +15,6 @@
 				<outline text="&lt;%googleAnalytics ()%&gt;"></outline>
 				<outline text="&lt;%useBootstrap%&gt;"></outline>
 				<outline text="&lt;%useSmallPictStyles%&gt;"></outline>
-				<outline text="&lt;%customStylesScripts%&gt;"></outline>
-				<outline text="&lt;%userStyles ()%&gt;"></outline>
 				<outline created="Sun, 09 Mar 2014 19:05:58 GMT" pgfnum="38716" text=""></outline>
 				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
 				<outline created="Sun, 09 Mar 2014 19:05:59 GMT" pgfnum="38718" text=""></outline>
@@ -322,6 +320,7 @@
 						</outline>
 					<outline text="&lt;/style&gt;"></outline>
 					</outline>
+				<outline created="Wed, 19 Mar 2014 04:34:55 GMT" pgfnum="39529" text=""></outline>
 				<outline text="&lt;script&gt;">
 					<outline created="Thu, 06 Mar 2014 22:37:01 GMT" pgfnum="38539" text="colorsArray = [">
 						<outline created="Thu, 06 Mar 2014 22:39:04 GMT" pgfnum="38546" text="&quot;white&quot;,"></outline>
@@ -451,6 +450,9 @@
 						</outline>
 					<outline text="&lt;/script&gt;"></outline>
 					</outline>
+				<outline created="Wed, 19 Mar 2014 04:35:03 GMT" pgfnum="39530" text=""></outline>
+				<outline text="&lt;%customStylesScripts%&gt;"></outline>
+				<outline text="&lt;%userStyles ()%&gt;"></outline>
 				<outline text="&lt;/head&gt;"></outline>
 				</outline>
 			<outline text="&lt;body&gt;">
