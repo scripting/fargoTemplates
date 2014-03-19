@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<opml version="2.0">
+	<head>
+		<title>stream.opml</title>
+		<ownerName>Dave Winer</ownerName>
+		<ownerEmail>dave.winer@gmail.com</ownerEmail>
+		</head>
+	<body>
+		<outline text="&lt;!DOCTYPE html&gt;"></outline>
+		<outline text="&lt;html&gt;">
+			<outline text="&lt;head&gt;">
+				<outline text="&lt;title&gt;&lt;%text%&gt;&lt;/title&gt;"></outline>
+				<outline text="&lt;meta charset=&quot;utf-8&quot;&gt; "></outline>
+				<outline text="&lt;%rssLink ()%&gt;"></outline>
+				<outline text="&lt;%googleAnalytics ()%&gt;"></outline>
+				<outline text="&lt;%useBootstrap%&gt;"></outline>
+				<outline text="&lt;%useSmallPictStyles%&gt;"></outline>
+				<outline text="&lt;%customStylesScripts%&gt;"></outline>
+				<outline text="&lt;%userStyles ()%&gt;"></outline>
+				<outline created="Sun, 09 Mar 2014 19:05:58 GMT" pgfnum="38716" text=""></outline>
+				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
+				<outline created="Sun, 09 Mar 2014 19:05:59 GMT" pgfnum="38718" text=""></outline>
+				<outline text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Abril+Fatface&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Average&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline created="Sun, 09 Mar 2014 01:46:54 GMT" pgfnum="38707" text=""></outline>
+				<outline text="&lt;style&gt;">
+					<outline text=".navbar {">
+						<outline created="Fri, 07 Mar 2014 19:33:42 GMT" pgfnum="38611" text="font-family: &quot;Arimo&quot;;"></outline>
+						<outline text="font-family: &quot;Average&quot;;"></outline>
+						<outline created="Fri, 07 Mar 2014 16:10:29 GMT" pgfnum="38582" text="background-color: white;"></outline>
+						<outline created="Fri, 07 Mar 2014 19:34:24 GMT" pgfnum="38612" text="font-size: 20px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divFargoStreamBody {">
+						<outline isComment="true" text="position: absolute;"></outline>
+						<outline isComment="true" text="top: 0;"></outline>
+						<outline isComment="true" text="left: 0;"></outline>
+						<outline isComment="true" text="right: 0;"></outline>
+						<outline isComment="true" text="bottom: 0;"></outline>
+						<outline created="Thu, 06 Mar 2014 15:57:58 GMT" pgfnum="38504" text="}"></outline>
+						</outline>
+					<outline text=".divBodyText {">
+						<outline created="Fri, 07 Mar 2014 16:47:03 GMT" isComment="true" pgfnum="38592" text="padding-top: 7.5%;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline created="Mon, 10 Mar 2014 14:34:50 GMT" pgfnum="38815" text=".divStreamTopSpacer {">
+						<outline created="Mon, 10 Mar 2014 14:34:58 GMT" isComment="true" pgfnum="38817" text="height: 60px;"></outline>
+						<outline created="Mon, 10 Mar 2014 14:34:53 GMT" pgfnum="38816" text="}"></outline>
+						</outline>
+					<outline text=".divStreamDay {">
+						<outline created="Mon, 10 Mar 2014 22:47:09 GMT" pgfnum="38888" text="position: relative;"></outline>
+						<outline created="Thu, 06 Mar 2014 15:41:13 GMT" pgfnum="38500" text="width: 100%;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:29:26 GMT" pgfnum="38524" text="height: 100%;"></outline>
+						<outline created="Thu, 06 Mar 2014 22:50:11 GMT" pgfnum="38560" text="margin-left: 0;"></outline>
+						<outline created="Thu, 06 Mar 2014 22:50:16 GMT" pgfnum="38561" text="margin-top: 0;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:08:19 GMT" pgfnum="38600" text="border-top: 1px solid silver;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:13:37 GMT" pgfnum="38786" text="z-index: 0;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:05:10 GMT" pgfnum="38510" text="}"></outline>
+						</outline>
+					<outline text=".divStreamDayText {">
+						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" pgfnum="38512" text="font-family: &quot;Average&quot;;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:05:56 GMT" pgfnum="38511" text="font-size: 24px;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:08:45 GMT" pgfnum="38517" text="line-height: 145%;"></outline>
+						<outline created="Fri, 07 Mar 2014 19:21:37 GMT" pgfnum="38610" text="padding-top: 5%;"></outline>
+						<outline created="Thu, 06 Mar 2014 17:20:04 GMT" pgfnum="38527" text="padding-bottom: 10%;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:05:01 GMT" pgfnum="38851" text=""></outline>
+						<outline created="Thu, 06 Mar 2014 15:41:13 GMT" isComment="true" pgfnum="38500" text="width: 80%;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:25:05 GMT" isComment="true" pgfnum="38614" text="padding-left: 12.5%;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:25:05 GMT" isComment="true" pgfnum="38614" text="padding-right: 12.5%;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:33 GMT" pgfnum="38845" text=""></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:33 GMT" pgfnum="38846" text="width: 700px;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:40 GMT" pgfnum="38849" text="margin-left: auto;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:44 GMT" pgfnum="38850" text="margin-right: auto;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:33 GMT" pgfnum="38848" text=""></outline>
+						<outline created="Thu, 06 Mar 2014 17:11:29 GMT" pgfnum="38526" text="vertical-align: top;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:29:26 GMT" pgfnum="38524" text="height: 100%;"></outline>
+						<outline created="Thu, 06 Mar 2014 22:50:16 GMT" pgfnum="38561" text="margin-top: 30px;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:05:10 GMT" pgfnum="38510" text="}"></outline>
+						</outline>
+					<outline created="Wed, 05 Mar 2014 23:44:15 GMT" pgfnum="38479" text=".divStreamDayHead {">
+						<outline text="font-family: &quot;Abril Fatface&quot;;"></outline>
+						<outline text="font-size: 40px;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" isComment="true" pgfnum="38478" text="font-weight: bold;"></outline>
+						<outline created="Sat, 08 Mar 2014 22:08:20 GMT" pgfnum="38672" text="margin-top: .1em;"></outline>
+						<outline text="-webkit-margin-after: .75em;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:44:17 GMT" pgfnum="38480" text="}"></outline>
+						</outline>
+					<outline created="Sun, 09 Mar 2014 22:12:28 GMT" pgfnum="38758" text=".divStreamDayImage {">
+						<outline text="height: 100%;"></outline>
+						<outline text="width: 100%;"></outline>
+						<outline text="position: absolute;"></outline>
+						<outline text="right: 0;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:24:57 GMT" pgfnum="38795" text=""></outline>
+						<outline text="-webkit-background-size: cover;"></outline>
+						<outline text="-moz-background-size: cover;"></outline>
+						<outline text="-o-background-size: cover;"></outline>
+						<outline text="background-size: cover;"></outline>
+						<outline text="background-position: center;"></outline>
+						<outline text="background-repeat: no-repeat;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:25:59 GMT" pgfnum="38796" text=""></outline>
+						<outline created="Mon, 10 Mar 2014 03:25:59 GMT" pgfnum="38797" text="z-index: -1;"></outline>
+						<outline created="Mon, 10 Mar 2014 03:26:20 GMT" pgfnum="38798" text="opacity: 1;"></outline>
+						<outline created="Sun, 09 Mar 2014 22:12:34 GMT" pgfnum="38759" text="}"></outline>
+						</outline>
+					<outline created="Mon, 10 Mar 2014 16:45:26 GMT" pgfnum="38833" text=".divTextInFrontOfImage {">
+						<outline text="background-color: white; "></outline>
+						<outline created="Mon, 10 Mar 2014 16:45:40 GMT" pgfnum="38835" text="opacity: .90;"></outline>
+						<outline created="Mon, 10 Mar 2014 22:48:36 GMT" pgfnum="38889" text="padding: 1.5em;"></outline>
+						<outline isComment="true" text="padding: 1%; "></outline>
+						<outline created="Mon, 10 Mar 2014 17:12:30 GMT" isComment="true" pgfnum="38844" text="padding-left: 3%;"></outline>
+						<outline created="Mon, 10 Mar 2014 17:12:30 GMT" isComment="true" pgfnum="38844" text="padding-bottom: 3%;"></outline>
+						<outline created="Mon, 10 Mar 2014 17:08:03 GMT" pgfnum="38842" text="border:2px solid whitesmoke;"></outline>
+						<outline created="Mon, 10 Mar 2014 16:45:33 GMT" pgfnum="38834" text="}"></outline>
+						</outline>
+					<outline created="Thu, 06 Mar 2014 23:45:27 GMT" pgfnum="38568" text=".spStreamArrows {">
+						<outline created="Fri, 07 Mar 2014 00:06:51 GMT" pgfnum="38577" text="font-size: .8em;"></outline>
+						<outline created="Fri, 07 Mar 2014 00:07:02 GMT" pgfnum="38578" text="color: silver;"></outline>
+						<outline created="Fri, 07 Mar 2014 00:06:08 GMT" pgfnum="38576" text="margin-right: 15px;"></outline>
+						<outline created="Thu, 06 Mar 2014 23:45:32 GMT" pgfnum="38570" text="}"></outline>
+						</outline>
+					<outline text=".divStreamDay p {">
+						<outline created="Thu, 06 Mar 2014 22:18:59 GMT" pgfnum="38537" text="margin-bottom: .3em;"></outline>
+						<outline created="Thu, 06 Mar 2014 22:19:05 GMT" pgfnum="38538" text="}"></outline>
+						</outline>
+					<outline text=".divTextContainer {">
+						<outline created="Thu, 06 Mar 2014 22:52:35 GMT" pgfnum="38562" text="padding: 0;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divBanner {">
+						<outline text="margin-bottom: -1px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divLevel {">
+						<outline text="margin-left: 20px;"></outline>
+						<outline created="Wed, 05 Mar 2014 16:40:59 GMT" pgfnum="38447" text="display: none;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text="h4 {">
+						<outline text="font-family: &quot;Georgia&quot;;"></outline>
+						<outline text="font-size: 18px;"></outline>
+						<outline text="-webkit-margin-after: 5px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divStreamSectionHead {">
+						<outline text="margin-top: 5px;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" pgfnum="38478" text="font-weight: bold;"></outline>
+						<outline text="-webkit-margin-after: 5px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".spPermalink {">
+						<outline text="margin-left: 3px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".spPermalink a {">
+						<outline text="text-decoration: none;"></outline>
+						<outline text="color: purple;"></outline>
+						<outline text="font-size: 13px;"></outline>
+						<outline text="font-weight: none !important;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divDaySeparator {">
+						<outline text="height: 0;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline created="Sat, 21 Dec 2013 19:48:58 GMT" pgfnum="34080" text=".aStreamWedgeLink {">
+						<outline created="Mon, 23 Dec 2013 22:32:13 GMT" pgfnum="34258" text="color: black;"></outline>
+						<outline created="Sat, 21 Dec 2013 19:49:12 GMT" pgfnum="34082" text="}"></outline>
+						</outline>
+					<outline created="Mon, 23 Dec 2013 23:15:22 GMT" pgfnum="34265" text=".aStreamWedgeLink i {">
+						<outline created="Wed, 05 Mar 2014 23:31:52 GMT" pgfnum="38472" text="font-size: .85em;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:35:53 GMT" pgfnum="38608" text="color: black;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:35:56 GMT" pgfnum="38609" text="cursor: pointer;"></outline>
+						<outline created="Mon, 23 Dec 2013 23:15:35 GMT" pgfnum="34267" text="}"></outline>
+						</outline>
+					<outline created="Sat, 08 Mar 2014 22:50:45 GMT" pgfnum="38694" text=".aStreamDayLink {">
+						<outline created="Mon, 23 Dec 2013 22:32:13 GMT" pgfnum="34258" text="color: black !important;"></outline>
+						<outline created="Sat, 08 Mar 2014 22:50:55 GMT" pgfnum="38696" text="cursor: pointer;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:43 GMT" pgfnum="38622" text="text-decoration: none;"></outline>
+						<outline created="Sat, 08 Mar 2014 22:50:48 GMT" pgfnum="38695" text="}"></outline>
+						</outline>
+					<outline created="Sat, 08 Mar 2014 22:50:45 GMT" pgfnum="38694" text=".aStreamDayLink a:link, .aStreamDayLink a:visited {">
+						<outline created="Mon, 23 Dec 2013 22:32:13 GMT" pgfnum="34258" text="color: black !important;"></outline>
+						<outline created="Sat, 08 Mar 2014 22:50:55 GMT" pgfnum="38696" text="cursor: pointer;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:43 GMT" pgfnum="38622" text="text-decoration: none;"></outline>
+						<outline created="Sat, 08 Mar 2014 22:50:48 GMT" pgfnum="38695" text="}"></outline>
+						</outline>
+					<outline created="Wed, 05 Mar 2014 23:19:36 GMT" pgfnum="38467" text=".divStreamIcon {">
+						<outline created="Wed, 05 Mar 2014 23:36:24 GMT" pgfnum="38476" text="float: left;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:39:24 GMT" pgfnum="38477" text="width: 20px;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:23:26 GMT" pgfnum="38471" text="margin-left: -20px;"></outline>
+						<outline created="Wed, 05 Mar 2014 17:19:32 GMT" pgfnum="38452" text="margin-right: 0;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:19:42 GMT" pgfnum="38469" text="}"></outline>
+						</outline>
+					<outline created="Wed, 05 Mar 2014 23:19:36 GMT" pgfnum="38467" text=".spStreamArrows {">
+						<outline created="Wed, 05 Mar 2014 23:36:24 GMT" pgfnum="38476" text="float: left;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:39:24 GMT" pgfnum="38477" text="width: 36px;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:23:26 GMT" pgfnum="38471" text="margin-left: -36px;"></outline>
+						<outline created="Wed, 05 Mar 2014 17:19:32 GMT" pgfnum="38452" text="margin-right: 0;"></outline>
+						<outline created="Wed, 05 Mar 2014 16:40:59 GMT" pgfnum="38447" text="display: none;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:19:42 GMT" pgfnum="38469" text="}"></outline>
+						</outline>
+					<outline created="Sun, 09 Mar 2014 04:06:59 GMT" pgfnum="38711" text=".aStreamArrowsLink {">
+						<outline created="Sun, 09 Mar 2014 04:07:49 GMT" pgfnum="38713" text="font-size: .75em;"></outline>
+						<outline created="Mon, 23 Dec 2013 22:32:13 GMT" pgfnum="34258" text="color: black !important;"></outline>
+						<outline created="Sat, 08 Mar 2014 22:50:55 GMT" pgfnum="38696" text="cursor: pointer;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:43 GMT" pgfnum="38622" text="text-decoration: none;"></outline>
+						<outline created="Sun, 09 Mar 2014 04:07:03 GMT" pgfnum="38712" text="}"></outline>
+						</outline>
+					<outline created="Fri, 07 Mar 2014 17:07:49 GMT" pgfnum="38596" text=".divFargoStreamFooter {">
+						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" pgfnum="38512" text="font-family: &quot;Arial&quot;;"></outline>
+						<outline created="Sun, 09 Mar 2014 22:42:38 GMT" pgfnum="38763" text="line-height: 200%;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:08:00 GMT" pgfnum="38598" text="height: 400px;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:08:05 GMT" pgfnum="38599" text="background-color: whitesmoke;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:08:19 GMT" pgfnum="38600" text="border-top: 1px solid silver;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:10:00 GMT" pgfnum="38601" text="text-align: center;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:12:24 GMT" pgfnum="38602" text="padding-top: 15px;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:07:51 GMT" pgfnum="38597" text="}"></outline>
+						</outline>
+					<outline created="Fri, 07 Mar 2014 17:17:27 GMT" pgfnum="38603" text=".divFargoSocialMediaLinks {">
+						<outline created="Fri, 07 Mar 2014 17:17:29 GMT" pgfnum="38604" text="position: fixed;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:17:46 GMT" pgfnum="38606" text="z-index: 1;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:17:34 GMT" pgfnum="38605" text="}"></outline>
+						</outline>
+					<outline created="Mon, 17 Mar 2014 01:47:33 GMT" pgfnum="39449" text=".divNavSocialMediaLinks {">
+						<outline created="Mon, 17 Mar 2014 01:50:49 GMT" pgfnum="39455" text="margin-top: 17px;"></outline>
+						<outline created="Mon, 17 Mar 2014 02:03:55 GMT" pgfnum="39457" text="margin-left: 1em;"></outline>
+						<outline created="Mon, 17 Mar 2014 02:06:23 GMT" pgfnum="39458" text="font-size: .9em;"></outline>
+						<outline created="Mon, 17 Mar 2014 01:47:36 GMT" pgfnum="39450" text="}"></outline>
+						</outline>
+					<outline created="Mon, 17 Mar 2014 01:47:33 GMT" pgfnum="39449" text=".divNavSocialMediaLinks .nav&gt;li&gt;a {">
+						<outline created="Mon, 17 Mar 2014 01:48:32 GMT" pgfnum="39452" text="display: inline;"></outline>
+						<outline created="Mon, 17 Mar 2014 01:47:36 GMT" pgfnum="39450" text="}"></outline>
+						</outline>
+					<outline created="Mon, 17 Mar 2014 01:47:33 GMT" pgfnum="39449" text=".divNavSocialMediaLinks .aSocialMediaLink {">
+						<outline text="letter-spacing: 14px;"></outline>
+						<outline created="Mon, 17 Mar 2014 01:47:36 GMT" pgfnum="39450" text="}"></outline>
+						</outline>
+					<outline created="Fri, 07 Mar 2014 23:46:31 GMT" pgfnum="38619" text=".aStreamTextLink {">
+						<outline created="Fri, 07 Mar 2014 23:46:49 GMT" pgfnum="38623" text="cursor: pointer;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:38 GMT" pgfnum="38621" text="color: black;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:43 GMT" pgfnum="38622" text="text-decoration: none;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:36 GMT" pgfnum="38620" text="}"></outline>
+						</outline>
+					<outline created="Fri, 07 Mar 2014 23:52:09 GMT" pgfnum="38624" text=".aStreamTextLink a:link, .aStreamTextLink a:visited, .aStreamTextLink a:hover, .aStreamTextLink a:active {">
+						<outline created="Fri, 07 Mar 2014 23:46:49 GMT" pgfnum="38623" text="cursor: pointer;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:38 GMT" pgfnum="38621" text="color: black;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:46:43 GMT" pgfnum="38622" text="text-decoration: none;"></outline>
+						<outline created="Fri, 07 Mar 2014 23:52:27 GMT" pgfnum="38625" text="}"></outline>
+						</outline>
+					<outline text="&lt;/style&gt;"></outline>
+					</outline>
+				<outline created="Sun, 09 Mar 2014 19:11:13 GMT" pgfnum="38719" text="&lt;style&gt; /* styles for phone */">
+					<outline text="@media only screen "></outline>
+					<outline text="and (min-device-width : 320px) "></outline>
+					<outline text="and (max-device-width : 480px) {">
+						<outline created="Sun, 09 Mar 2014 19:12:17 GMT" pgfnum="38721" text=".navbar {">
+							<outline created="Sun, 09 Mar 2014 19:12:20 GMT" pgfnum="38722" text="display: none;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:12:24 GMT" pgfnum="38723" text="}"></outline>
+							</outline>
+						<outline created="Sun, 09 Mar 2014 19:31:47 GMT" pgfnum="38742" text=".divBodyText {">
+							<outline created="Sun, 09 Mar 2014 19:31:50 GMT" isComment="true" pgfnum="38743" text="padding-top: 0;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:31:54 GMT" pgfnum="38744" text="}"></outline>
+							</outline>
+						<outline created="Mon, 10 Mar 2014 14:34:50 GMT" pgfnum="38815" text=".divStreamTopSpacer {">
+							<outline created="Mon, 10 Mar 2014 14:34:58 GMT" pgfnum="38817" text="display: none;"></outline>
+							<outline created="Mon, 10 Mar 2014 14:34:53 GMT" pgfnum="38816" text="}"></outline>
+							</outline>
+						<outline created="Sun, 09 Mar 2014 19:13:35 GMT" pgfnum="38724" text=".divFargoSocialMediaLinks {">
+							<outline created="Sun, 09 Mar 2014 19:13:38 GMT" pgfnum="38725" text="display: none;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:13:44 GMT" pgfnum="38726" text="}"></outline>
+							</outline>
+						<outline created="Sun, 09 Mar 2014 19:14:59 GMT" pgfnum="38727" text=".divStreamDayHead {">
+							<outline created="Sun, 09 Mar 2014 19:15:29 GMT" pgfnum="38729" text="font-size: 22px;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:15:04 GMT" pgfnum="38728" text="}"></outline>
+							</outline>
+						<outline text=".divStreamSectionHead {">
+							<outline created="Sun, 09 Mar 2014 19:28:47 GMT" pgfnum="38741" text="margin-top: 8px;"></outline>
+							<outline text="-webkit-margin-after: 8px;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:28:06 GMT" pgfnum="38740" text="}"></outline>
+							</outline>
+						<outline created="Sun, 09 Mar 2014 19:16:42 GMT" pgfnum="38730" text=".divStreamDayText {">
+							<outline created="Sun, 09 Mar 2014 19:15:29 GMT" pgfnum="38729" text="font-size: 17px;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:17:45 GMT" pgfnum="38732" text="padding-left: 8%;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:17:45 GMT" pgfnum="38732" text="padding-right: 7%;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:19:09 GMT" pgfnum="38733" text="width: 85%;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:16:46 GMT" pgfnum="38731" text="}"></outline>
+							</outline>
+						<outline text=".aStreamWedgeLink i {">
+							<outline created="Sun, 09 Mar 2014 19:24:31 GMT" pgfnum="38735" text="font-size: 1.1em;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:24:26 GMT" pgfnum="38734" text="}"></outline>
+							</outline>
+						<outline created="Sun, 09 Mar 2014 19:25:44 GMT" pgfnum="38736" text=".divStreamIcon {">
+							<outline created="Sun, 09 Mar 2014 19:25:48 GMT" pgfnum="38737" text="width: 14px;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:25:55 GMT" pgfnum="38738" text="margin-left: -14px;"></outline>
+							<outline created="Sun, 09 Mar 2014 19:26:00 GMT" pgfnum="38739" text="}"></outline>
+							</outline>
+						<outline created="Sun, 09 Mar 2014 20:16:53 GMT" pgfnum="38745" text=".spPermalink {">
+							<outline created="Sun, 09 Mar 2014 20:16:57 GMT" pgfnum="38746" text="display: none;"></outline>
+							<outline created="Sun, 09 Mar 2014 20:17:00 GMT" pgfnum="38747" text="}"></outline>
+							</outline>
+						<outline created="Fri, 07 Mar 2014 17:07:49 GMT" pgfnum="38596" text=".divFargoStreamFooter {">
+							<outline created="Sun, 09 Mar 2014 22:43:15 GMT" pgfnum="38764" text="font-size: 15px;"></outline>
+							<outline created="Sun, 09 Mar 2014 22:44:25 GMT" pgfnum="38765" text="line-height: 170%;"></outline>
+							<outline created="Fri, 07 Mar 2014 17:07:51 GMT" pgfnum="38597" text="}"></outline>
+							</outline>
+						<outline created="Mon, 10 Mar 2014 16:45:26 GMT" pgfnum="38833" text=".divTextInFrontOfImage {">
+							<outline created="Tue, 11 Mar 2014 14:14:57 GMT" pgfnum="38890" text="width: 80% !important;"></outline>
+							<outline created="Tue, 11 Mar 2014 14:44:09 GMT" pgfnum="38892" text="margin-left: auto;"></outline>
+							<outline created="Tue, 11 Mar 2014 14:44:13 GMT" pgfnum="38893" text="margin-right: auto;"></outline>
+							<outline created="Mon, 10 Mar 2014 16:45:33 GMT" pgfnum="38834" text="}"></outline>
+							</outline>
+						<outline created="Tue, 11 Mar 2014 14:50:56 GMT" pgfnum="38894" text=".spDateYearPart {">
+							<outline created="Tue, 11 Mar 2014 14:51:00 GMT" pgfnum="38895" text="display: none;"></outline>
+							<outline created="Tue, 11 Mar 2014 14:51:04 GMT" pgfnum="38896" text="}"></outline>
+							</outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline created="Sun, 09 Mar 2014 19:11:22 GMT" pgfnum="38720" text="&lt;/style&gt;"></outline>
+					</outline>
+				<outline text="&lt;style&gt; /* styles for tablet */">
+					<outline text="@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {">
+						<outline text="}"></outline>
+						</outline>
+					<outline text="&lt;/style&gt;"></outline>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline isComment="true" text="imgArray = [">
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://cyber.law.harvard.edu/blogs/static/crimson1/scriptingBanner.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 287,"></outline>
+							<outline text="&quot;width&quot;: 640"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/05/26/xmlScripting.gif&quot;,"></outline>
+							<outline text="&quot;height&quot;: 248,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/07/21/sangreDeCristoStorm.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 252,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/07/26/demCon.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 222,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/08/02/rockaway.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 217,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/08/06/seattleScripting.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 240,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/08/28/sheaFromAir.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 252,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/09/16/alps.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 232,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/11/01/flag.gif&quot;,"></outline>
+							<outline text="&quot;height&quot;: 234,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/12/03/saskatchewan.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 243,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2004/12/18/bc.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 240,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/01/10/beahc.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 226,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/01/31/texas.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 219,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/02/20/saskatchewanjpg.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 243,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/02/24/bsod.gif&quot;,"></outline>
+							<outline text="&quot;height&quot;: 226,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/03/03/sunrise.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 237,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/03/06/sergey.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 220,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/03/08/harry.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 225,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/03/08/marineParkwayBridge.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 222,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/03/13/timesSquare.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 229,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/03/20/salad.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 226,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/04/03/snApr2005.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 231,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/04/09/coffeeCupAndFriends.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 218,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/04/14/woodside.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 249,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/05/02/sedona.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 220,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/05/12/storm.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 229,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/06/06/beach.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 231,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/06/16/seattleScripting.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 230,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/07/05/atlanticCoast.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 229,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/07/05/countryStore.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 214,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/07/20/vermontCows.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 222,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/08/11/yellowstone.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 231,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/08/26/barcamp.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 221,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/08/31/pinole.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 213,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/09/09/berkeley.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 223,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/09/09/blackfasceRudy.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 240,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/09/13/jazz.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 236,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/09/13/newsroom.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 223,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/09/20/floridaRoadside.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 232,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/10/01/chrisInNashville.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 212,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/10/01/road2.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 212,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/10/07/shattuck.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 223,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/10/23/ms2000.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 213,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/10/30/rohit.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 229,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/11/07/architect.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 227,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/11/17/glasses.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 193,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/12/03/scobleizer.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 214,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/12/08/snhead.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 220,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/12/14/cafeBeignet.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 218,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/12/24/noLadyBus.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 223,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2005/12/31/patrick.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 203,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/01/11/stPaulGrocery.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 241,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/01/24/macworld.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 225,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/01/27/busInAmsterdam.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 212,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/01/27/tramInAmsterdam.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 212,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/03/06/mississippiRiver.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 213,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/03/17/railroadCrossing.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 233,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/03/18/floridaBeachStorm.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 246,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/04/10/prairie.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 207,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/04/15/sheabanner.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 223,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/04/24/microsoft.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 234,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/04/25/pikeVeggies.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 202,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/04/26/hydrant.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 230,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/04/27/ocean5.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 227,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/05/04/bigsky.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 239,"></outline>
+							<outline text="&quot;width&quot;: 634"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/05/09/santee.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 210,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/05/11/westWilsonMadison.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 231,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/05/18/fire.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 220,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/05/22/amsterdam.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 222,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/06/04/atatPark.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 218,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/06/09/berkeley.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 234,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/06/20/broadway.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 240,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/06/23/rockies.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 233,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/06/29/ponziAndJory.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 223,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/07/05/baronCongdon.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 230,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/07/06/eastRiver.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 229,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/07/20/crescentBeach.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 239,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/07/27/milviaStBerkeley.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 234,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/01/blogHersNerdingOut.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 236,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/10/harvardGroupShot.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 230,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/10/nyse.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 241,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/13/lubrication.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 233,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/21/hiking.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 233,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/22/sims.gif&quot;,"></outline>
+							<outline text="&quot;height&quot;: 234,"></outline>
+							<outline text="&quot;width&quot;: 629"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/08/31/coliseum.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 232,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/09/03/desktop.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 238,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/09/17/vw.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 225,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/09/22/anotherFunnyBerkeleyCar.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 234,"></outline>
+							<outline text="&quot;width&quot;: 627"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/09/26/carpet.gif&quot;,"></outline>
+							<outline text="&quot;height&quot;: 238,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/09/28/coffeeCupAndFriends.gif&quot;,"></outline>
+							<outline text="&quot;height&quot;: 225,"></outline>
+							<outline text="&quot;width&quot;: 627"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/10/01/kitchen.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 236,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/10/03/rssCouch.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 241,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://images.scripting.com/archiveScriptingCom/2006/11/03/hawkRunner.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 236,"></outline>
+							<outline text="&quot;width&quot;: 628"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://monster2.scripting.com/blogs/pics/scriptingArchiveDa/sierraRoadSunset.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 259,"></outline>
+							<outline text="&quot;width&quot;: 640"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://monster2.scripting.com/staticZ/images/archiveScriptingCom/2003/11/29/nevadaRoad.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 245,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/2003/12/05/veneziaScripting.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 250,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/archiveScriptingCom/2003/12/31/playBall.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 229,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/archiveScriptingCom/2004/02/17/jamisJimmiDaveMarc.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 212,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/archiveScriptingCom/2004/03/03/subway.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 262,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/archiveScriptingCom/2004/03/20/tunnel.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 233,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/archiveScriptingCom/2004/04/08/wisteriaHeader.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 230,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="{">
+							<outline text="&quot;url&quot;: &quot;http://www.scripting.com/images/archiveScriptingCom/2004/05/30/garmentGuys.jpg&quot;,"></outline>
+							<outline text="&quot;height&quot;: 240,"></outline>
+							<outline text="&quot;width&quot;: 637"></outline>
+							<outline text="},"></outline>
+							</outline>
+						<outline text="];"></outline>
+						</outline>
+					<outline created="Thu, 06 Mar 2014 22:37:01 GMT" isComment="true" pgfnum="38539" text="colorsArray = [">
+						<outline created="Thu, 06 Mar 2014 22:39:28 GMT" pgfnum="38548" text="&quot;FloralWhite&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:37:55 GMT" pgfnum="38541" text="&quot;LightGoldenRodYellow&quot;, "></outline>
+						<outline created="Thu, 06 Mar 2014 22:39:04 GMT" pgfnum="38546" text="&quot;SeaShell&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:38:38 GMT" pgfnum="38544" text="&quot;CornSilk&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:38:52 GMT" pgfnum="38545" text="&quot;MintCream&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:38:30 GMT" pgfnum="38543" text="&quot;WhiteSmoke&quot;, "></outline>
+						<outline created="Thu, 06 Mar 2014 22:39:48 GMT" pgfnum="38549" text="&quot;White&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:39:15 GMT" pgfnum="38547" text="&quot;GhostWhite&quot;"></outline>
+						<outline created="Thu, 06 Mar 2014 22:37:09 GMT" pgfnum="38540" text="];"></outline>
+						</outline>
+					<outline created="Thu, 06 Mar 2014 22:37:01 GMT" pgfnum="38539" text="colorsArray = [">
+						<outline created="Thu, 06 Mar 2014 22:39:04 GMT" pgfnum="38546" text="&quot;white&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:39:28 GMT" pgfnum="38548" text="&quot;whitesmoke&quot;,"></outline>
+						<outline created="Sun, 09 Mar 2014 22:32:38 GMT" pgfnum="38748" text="&quot;ghostwhite&quot;,"></outline>
+						<outline created="Thu, 06 Mar 2014 22:37:55 GMT" pgfnum="38541" text="&quot;gainsboro&quot; "></outline>
+						<outline created="Thu, 06 Mar 2014 22:37:09 GMT" pgfnum="38540" text="];"></outline>
+						</outline>
+					<outline created="Wed, 05 Mar 2014 15:12:06 GMT" pgfnum="38421" text="function getdaynum (theDate) {">
+						<outline created="Wed, 05 Mar 2014 15:15:08 GMT" pgfnum="38429" text="var year = theDate.getFullYear ();"></outline>
+						<outline text="var onejan = new Date (year, 0, 1);"></outline>
+						<outline text="return (Math.ceil ((theDate - onejan) / 86400000));"></outline>
+						<outline created="Wed, 05 Mar 2014 15:12:15 GMT" pgfnum="38424" text="}"></outline>
+						</outline>
+					<outline created="Wed, 05 Mar 2014 16:42:21 GMT" pgfnum="38448" text="function ecStream (idnum) {">
+						<outline created="Sun, 22 Dec 2013 00:04:33 GMT" pgfnum="34114" text="var c = document.getElementById (&quot;idStreamWedge&quot; + idnum), idUL = &quot;#idStreamLevel&quot; + idnum;"></outline>
+						<outline created="Sat, 21 Dec 2013 23:21:38 GMT" pgfnum="34101" text="if (c.className == &quot;fa fa-caret-down&quot;) {">
+							<outline created="Sun, 22 Dec 2013 00:05:17 GMT" pgfnum="34116" text="c.className = &quot;fa fa-caret-right&quot;;"></outline>
+							<outline text="$(idUL).slideUp (75);"></outline>
+							<outline created="Sun, 22 Dec 2013 00:04:58 GMT" pgfnum="34115" text="}"></outline>
+							</outline>
+						<outline created="Sun, 22 Dec 2013 00:05:34 GMT" pgfnum="34117" text="else {">
+							<outline created="Sun, 22 Dec 2013 00:05:37 GMT" pgfnum="34118" text="c.className = &quot;fa fa-caret-down&quot;;"></outline>
+							<outline text="$(idUL).slideDown (75);"></outline>
+							<outline created="Sun, 22 Dec 2013 00:05:45 GMT" pgfnum="34119" text="}"></outline>
+							</outline>
+						<outline created="Wed, 05 Mar 2014 16:42:31 GMT" pgfnum="38449" text="}"></outline>
+						</outline>
+					<outline text="function startup () {">
+						<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixarray = 0;"></outline>
+						<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () {">
+							<outline created="Mon, 10 Mar 2014 03:50:00 GMT" pgfnum="38807" text="var flSetColor = true;"></outline>
+							<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+								<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayImage&quot;) {">
+									<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
+									<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+									</outline>
+								<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+								</outline>
+							<outline created="Mon, 10 Mar 2014 03:50:04 GMT" pgfnum="38808" text="if (flSetColor) {">
+								<outline created="Thu, 06 Mar 2014 22:43:15 GMT" pgfnum="38554" text="this.style.backgroundColor = colorsArray [ixarray++ % colorsArray.length];"></outline>
+								<outline created="Mon, 10 Mar 2014 03:50:09 GMT" pgfnum="38809" text="}"></outline>
+								</outline>
+							<outline created="Mon, 10 Mar 2014 16:53:34 GMT" pgfnum="38836" text="else {">
+								<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+									<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayText&quot;) {">
+										<outline created="Mon, 10 Mar 2014 17:01:03 GMT" pgfnum="38841" text="var flset = false;"></outline>
+										<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+											<outline created="Mon, 10 Mar 2014 17:00:49 GMT" pgfnum="38839" text="if (!flset) {">
+												<outline text="this.className = &quot;divTextInFrontOfImage&quot;; //set classname of first child element"></outline>
+												<outline created="Mon, 10 Mar 2014 17:00:55 GMT" pgfnum="38840" text="}"></outline>
+												</outline>
+											<outline created="Mon, 10 Mar 2014 17:00:43 GMT" pgfnum="38838" text="flset = true;"></outline>
+											<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+											</outline>
+										<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+										</outline>
+									<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+									</outline>
+								<outline created="Mon, 10 Mar 2014 16:53:37 GMT" pgfnum="38837" text="}"></outline>
+								</outline>
+							<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
+							</outline>
+						<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38964" text=""></outline>
+						<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38965" text="var hash = window.location.hash;"></outline>
+						<outline created="Tue, 11 Mar 2014 20:27:24 GMT" pgfnum="38979" text="if (hash.length &gt; 0) {">
+							<outline text="$(&quot;#idTextContainer&quot;).find (&quot;span&quot;).each (function () {">
+								<outline created="Tue, 11 Mar 2014 18:25:25 GMT" pgfnum="38968" text="$(this).children (&quot;a&quot;).each (function () {">
+									<outline created="Tue, 11 Mar 2014 18:26:42 GMT" pgfnum="38973" text="if (string.endsWith (this.href, window.location.hash)) {">
+										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;);"></outline>
+										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" isComment="true" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;color&quot;, &quot;green&quot;);"></outline>
+										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
+										<outline created="Tue, 11 Mar 2014 22:46:22 GMT" pgfnum="38981" text=""></outline>
+										<outline created="Tue, 11 Mar 2014 22:50:50 GMT" pgfnum="38989" text="var flexpand = true;"></outline>
+										<outline created="Tue, 11 Mar 2014 22:46:23 GMT" pgfnum="38983" text="$(this).parents (&quot;div&quot;).each (function () {">
+											<outline created="Tue, 11 Mar 2014 22:50:58 GMT" pgfnum="38990" text="if (flexpand) {">
+												<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).children (&quot;a&quot;).each (function () {">
+													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" isComment="true" pgfnum="38992" text="$(this).css (&quot;color&quot;, &quot;green&quot;);"></outline>
+													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" pgfnum="38992" text="$(this).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
+													<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
+													</outline>
+												<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).find (&quot;i&quot;).each (function () {">
+													<outline text="$(this).attr (&quot;class&quot;, &quot;fa fa-caret-down&quot;);"></outline>
+													<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
+													</outline>
+												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;); //the divLevel item"></outline>
+												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;color&quot;, &quot;green&quot;); "></outline>
+												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;); "></outline>
+												<outline created="Tue, 11 Mar 2014 22:50:31 GMT" pgfnum="38988" text="flexpand = false;"></outline>
+												<outline created="Tue, 11 Mar 2014 22:51:08 GMT" pgfnum="38991" text="}"></outline>
+												</outline>
+											<outline created="Tue, 11 Mar 2014 22:46:50 GMT" pgfnum="38986" text="});"></outline>
+											</outline>
+										<outline created="Tue, 11 Mar 2014 18:27:47 GMT" pgfnum="38974" text="}"></outline>
+										</outline>
+									<outline created="Tue, 11 Mar 2014 18:26:06 GMT" pgfnum="38972" text="});"></outline>
+									</outline>
+								<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
+								</outline>
+							<outline created="Sun, 16 Mar 2014 14:45:30 GMT" isComment="true" pgfnum="39447" text="window.scrollBy (0, 110); //experiment -- 3/16/14 by DW"></outline>
+							<outline created="Tue, 11 Mar 2014 20:27:30 GMT" pgfnum="38980" text="}"></outline>
+							</outline>
+						<outline created="Tue, 11 Mar 2014 14:30:29 GMT" pgfnum="38891" text=""></outline>
+						<outline created="Thu, 13 Mar 2014 20:49:12 GMT" pgfnum="39199" text="if (getBoolean (pagetable.flFixedMenu)) {">
+							<outline created="Sun, 16 Mar 2014 20:23:12 GMT" pgfnum="39448" text="document.body.style.paddingTop = &quot;60px&quot;;"></outline>
+							<outline text="if (hash.length &gt; 0) {">
+								<outline text="$(document).one (&quot;scroll&quot;, function () {">
+									<outline text="var $el = $(this), top = $el.scrollTop ();"></outline>
+									<outline text="$el.scrollTop (top - 60);"></outline>
+									<outline text="});"></outline>
+									</outline>
+								<outline text="}"></outline>
+								</outline>
+							<outline created="Thu, 13 Mar 2014 20:49:22 GMT" pgfnum="39200" text="}"></outline>
+							</outline>
+						<outline created="Thu, 06 Mar 2014 22:40:18 GMT" isComment="true" pgfnum="38553" text="//old code">
+							<outline text="var ixarray = getdaynum (new Date ()) % imgArray.length; "></outline>
+							<outline text="var obj = imgArray [ixarray];"></outline>
+							<outline text="var img = document.getElementById (&quot;idBannerImage&quot;); "></outline>
+							<outline text="var bodytext = document.getElementById (&quot;idBodyText&quot;); "></outline>
+							<outline text="img.height = obj.height;"></outline>
+							<outline text="img.width = obj.width;"></outline>
+							<outline text="bodytext.style.width = obj.width + &quot;px&quot;; "></outline>
+							<outline text="img.src = obj.url;"></outline>
+							</outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
+				<outline text="&lt;/head&gt;"></outline>
+				</outline>
+			<outline text="&lt;body&gt;">
+				<outline created="Wed, 25 Dec 2013 00:29:58 GMT" isComment="true" pgfnum="34474" text="&lt;div class=&quot;divFargoSocialMediaLinks&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/div&gt;"></outline>
+				<outline text="&lt;%menu ()%&gt;"></outline>
+				<outline text="&lt;div class=&quot;divFargoStreamBody&quot; id=&quot;idFargoStreamBody&quot;&gt;">
+					<outline isComment="true" text="&lt;div class=&quot;divBanner&quot;&gt;">
+						<outline text="&lt;img id=&quot;idBannerImage&quot; height=&quot;250&quot; width=&quot;637&quot; alt=&quot;Scripting News banner&quot;&gt;"></outline>
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
+					<outline text="&lt;div class=&quot;divBodyText&quot; id=&quot;idBodyText&quot;&gt;">
+						<outline text="&lt;div class=&quot;divTextContainer&quot; id=&quot;idTextContainer&quot;&gt;">
+							<outline text="&lt;%bodytext%&gt;"></outline>
+							<outline text="&lt;/div&gt;"></outline>
+							</outline>
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
+					<outline text="&lt;/div&gt;"></outline>
+					</outline>
+				<outline created="Fri, 07 Mar 2014 17:06:45 GMT" pgfnum="38593" text="&lt;div class=&quot;divFargoStreamFooter&quot;&gt;">
+					<outline created="Fri, 07 Mar 2014 19:37:04 GMT" pgfnum="38613" text="&lt;div&gt;&lt;%copyright%&gt;&lt;/div&gt;"></outline>
+					<outline text="&lt;div&gt;Last update: &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;.&lt;/div&gt;"></outline>
+					<outline text="&lt;div&gt;&lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/div&gt;"></outline>
+					<outline created="Fri, 07 Mar 2014 17:18:48 GMT" pgfnum="38607" text="&lt;div style=&quot;letter-spacing: 12px; font-size: 1.2em; margin-top: 5px;&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/div&gt;"></outline>
+					<outline created="Fri, 07 Mar 2014 17:07:01 GMT" pgfnum="38595" text="&lt;/div&gt;"></outline>
+					</outline>
+				<outline text="&lt;script&gt;">
+					<outline isComment="true" text="$(&quot;#idBannerImage&quot;).load (function () {">
+						<outline isComment="true" text="alert (&quot;image loaded&quot;);"></outline>
+						<outline text="document.getElementById (&quot;idFargoStreamBody&quot;).style.visibility = &quot;visible&quot;;"></outline>
+						<outline created="Wed, 05 Mar 2014 15:23:16 GMT" pgfnum="38435" text="});"></outline>
+						</outline>
+					<outline text="startup ();"></outline>
+					<outline text="startupFargoPlatform ();"></outline>
+					<outline text="&lt;/script&gt;"></outline>
+					</outline>
+				<outline text="&lt;/body&gt;"></outline>
+				</outline>
+			<outline text="&lt;/html&gt;"></outline>
+			</outline>
+		</body>
+	</opml>
