@@ -9,7 +9,7 @@ Update: Another <a href="http://scripting.com/2014/03/07/myTemplatesAreOpenSourc
 
 #### Versions
 
-Starting on March 18, 2014, I'm giving version numbers to releases of Fargo Templates. Makes it easier to refer to updates in the check-in summaries. The first version is 0.40.
+Starting on March 18, 2014, we're giving version numbers to releases of Fargo Templates. Makes it easier to refer to updates in the check-in summaries. The first version is 0.40.
 
 #### v0.41 -- 3/19/14 by DW
 
