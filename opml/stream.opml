@@ -387,28 +387,34 @@
 						<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38964" text=""></outline>
 						<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38965" text="var hash = window.location.hash;"></outline>
 						<outline created="Tue, 11 Mar 2014 20:27:24 GMT" pgfnum="38979" text="if (hash.length &gt; 0) {">
+							<outline text="var hightlightcolor = &quot;yellow&quot;;"></outline>
 							<outline text="$(&quot;#idTextContainer&quot;).find (&quot;span&quot;).each (function () {">
 								<outline created="Tue, 11 Mar 2014 18:25:25 GMT" pgfnum="38968" text="$(this).children (&quot;a&quot;).each (function () {">
 									<outline created="Tue, 11 Mar 2014 18:26:42 GMT" pgfnum="38973" text="if (string.endsWith (this.href, window.location.hash)) {">
 										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;);"></outline>
-										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" isComment="true" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;color&quot;, &quot;green&quot;);"></outline>
+										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;background-color&quot;, hightlightcolor);"></outline>
 										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
 										<outline created="Tue, 11 Mar 2014 22:46:22 GMT" pgfnum="38981" text=""></outline>
 										<outline created="Tue, 11 Mar 2014 22:50:50 GMT" pgfnum="38989" text="var flexpand = true;"></outline>
 										<outline created="Tue, 11 Mar 2014 22:46:23 GMT" pgfnum="38983" text="$(this).parents (&quot;div&quot;).each (function () {">
 											<outline created="Tue, 11 Mar 2014 22:50:58 GMT" pgfnum="38990" text="if (flexpand) {">
 												<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).children (&quot;a&quot;).each (function () {">
-													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" isComment="true" pgfnum="38992" text="$(this).css (&quot;color&quot;, &quot;green&quot;);"></outline>
+													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" pgfnum="38992" text="$(this).css (&quot;background-color&quot;, hightlightcolor);"></outline>
 													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" pgfnum="38992" text="$(this).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
 													<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
 													</outline>
 												<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).find (&quot;i&quot;).each (function () {">
-													<outline text="$(this).attr (&quot;class&quot;, &quot;fa fa-caret-down&quot;);"></outline>
+													<outline isComment="true" text="console.log (&quot;this.class == &quot; + $(this).attr (&quot;class&quot;));"></outline>
+													<outline text="if ($(this).attr (&quot;class&quot;) == &quot;fa fa-caret-right&quot;) { //3/20/14 by DW">
+														<outline text="$(this).attr (&quot;class&quot;, &quot;fa fa-caret-down&quot;);"></outline>
+														<outline text="}"></outline>
+														</outline>
 													<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
 													</outline>
 												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;); //the divLevel item"></outline>
-												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;color&quot;, &quot;green&quot;); "></outline>
-												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;); "></outline>
+												<outline text=""></outline>
+												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;background-color&quot;, hightlightcolor); //the divLevel item"></outline>
+												<outline text=""></outline>
 												<outline created="Tue, 11 Mar 2014 22:50:31 GMT" pgfnum="38988" text="flexpand = false;"></outline>
 												<outline created="Tue, 11 Mar 2014 22:51:08 GMT" pgfnum="38991" text="}"></outline>
 												</outline>
@@ -420,7 +426,6 @@
 									</outline>
 								<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
 								</outline>
-							<outline created="Sun, 16 Mar 2014 14:45:30 GMT" isComment="true" pgfnum="39447" text="window.scrollBy (0, 110); //experiment -- 3/16/14 by DW"></outline>
 							<outline created="Tue, 11 Mar 2014 20:27:30 GMT" pgfnum="38980" text="}"></outline>
 							</outline>
 						<outline created="Tue, 11 Mar 2014 14:30:29 GMT" pgfnum="38891" text=""></outline>
@@ -435,16 +440,6 @@
 								<outline text="}"></outline>
 								</outline>
 							<outline created="Thu, 13 Mar 2014 20:49:22 GMT" pgfnum="39200" text="}"></outline>
-							</outline>
-						<outline created="Thu, 06 Mar 2014 22:40:18 GMT" isComment="true" pgfnum="38553" text="//old code">
-							<outline text="var ixarray = getdaynum (new Date ()) % imgArray.length; "></outline>
-							<outline text="var obj = imgArray [ixarray];"></outline>
-							<outline text="var img = document.getElementById (&quot;idBannerImage&quot;); "></outline>
-							<outline text="var bodytext = document.getElementById (&quot;idBodyText&quot;); "></outline>
-							<outline text="img.height = obj.height;"></outline>
-							<outline text="img.width = obj.width;"></outline>
-							<outline text="bodytext.style.width = obj.width + &quot;px&quot;; "></outline>
-							<outline text="img.src = obj.url;"></outline>
 							</outline>
 						<outline text="}"></outline>
 						</outline>
