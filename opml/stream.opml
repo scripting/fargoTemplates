@@ -18,14 +18,21 @@
 				<outline created="Sun, 09 Mar 2014 19:05:58 GMT" pgfnum="38716" text=""></outline>
 				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
 				<outline created="Sun, 09 Mar 2014 19:05:59 GMT" pgfnum="38718" text=""></outline>
-				<outline text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Abril+Fatface&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
-				<outline text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Average&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline isComment="true" text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Abril+Fatface&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline isComment="true" text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Average&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline text=""></outline>
+				<outline text="&lt;link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic,700italic' rel='stylesheet' type='text/css'&gt;"></outline>
+				<outline text="&lt;link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'&gt;"></outline>
 				<outline created="Sun, 09 Mar 2014 01:46:54 GMT" pgfnum="38707" text=""></outline>
 				<outline text="&lt;style&gt;">
 					<outline text=".navbar {">
-						<outline text="font-family: &quot;Average&quot;;"></outline>
+						<outline text="font-family: 'Ubuntu', sans-serif;"></outline>
 						<outline created="Fri, 07 Mar 2014 16:10:29 GMT" pgfnum="38582" text="background-color: white;"></outline>
 						<outline created="Fri, 07 Mar 2014 19:34:24 GMT" pgfnum="38612" text="font-size: 20px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".navbar-container {">
+						<outline text="width: 1000px !important;"></outline>
 						<outline text="}"></outline>
 						</outline>
 					<outline text=".divFargoStreamBody {">
@@ -55,7 +62,8 @@
 						<outline created="Thu, 06 Mar 2014 16:05:10 GMT" pgfnum="38510" text="}"></outline>
 						</outline>
 					<outline text=".divStreamDayText {">
-						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" pgfnum="38512" text="font-family: &quot;Average&quot;;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" isComment="true" pgfnum="38512" text="font-family: &quot;Average&quot;;"></outline>
+						<outline text="font-family: 'Vollkorn', serif;"></outline>
 						<outline created="Thu, 06 Mar 2014 16:05:56 GMT" pgfnum="38511" text="font-size: 24px;"></outline>
 						<outline created="Thu, 06 Mar 2014 16:08:45 GMT" pgfnum="38517" text="line-height: 145%;"></outline>
 						<outline created="Fri, 07 Mar 2014 19:21:37 GMT" pgfnum="38610" text="padding-top: 5%;"></outline>
@@ -75,9 +83,10 @@
 						<outline created="Thu, 06 Mar 2014 16:05:10 GMT" pgfnum="38510" text="}"></outline>
 						</outline>
 					<outline created="Wed, 05 Mar 2014 23:44:15 GMT" pgfnum="38479" text=".divStreamDayHead {">
-						<outline text="font-family: &quot;Abril Fatface&quot;;"></outline>
-						<outline text="font-size: 40px;"></outline>
-						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" isComment="true" pgfnum="38478" text="font-weight: bold;"></outline>
+						<outline isComment="true" text="font-family: &quot;Abril Fatface&quot;;"></outline>
+						<outline text="font-family: 'Ubuntu', sans-serif;"></outline>
+						<outline text="font-size: 36px;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" pgfnum="38478" text="font-weight: bold;"></outline>
 						<outline created="Sat, 08 Mar 2014 22:08:20 GMT" pgfnum="38672" text="margin-top: .1em;"></outline>
 						<outline text="-webkit-margin-after: .75em;"></outline>
 						<outline created="Wed, 05 Mar 2014 23:44:17 GMT" pgfnum="38480" text="}"></outline>
@@ -98,6 +107,14 @@
 						<outline created="Mon, 10 Mar 2014 03:25:59 GMT" pgfnum="38797" text="z-index: -1;"></outline>
 						<outline created="Mon, 10 Mar 2014 03:26:20 GMT" pgfnum="38798" text="opacity: 1;"></outline>
 						<outline created="Sun, 09 Mar 2014 22:12:34 GMT" pgfnum="38759" text="}"></outline>
+						</outline>
+					<outline created="Thu, 26 Dec 2013 18:11:18 GMT" pgfnum="34525" text=".divMapCanvas {">
+						<outline created="Thu, 26 Dec 2013 18:11:56 GMT" pgfnum="34534" text="height: 100%; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:25 GMT" pgfnum="34526" text="width: 100%; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:52 GMT" pgfnum="34533" text="position: absolute; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:39 GMT" pgfnum="34529" text="right: 0; "></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:35 GMT" pgfnum="34528" text="z-index: -10;"></outline>
+						<outline created="Thu, 26 Dec 2013 18:11:26 GMT" pgfnum="34527" text="}"></outline>
 						</outline>
 					<outline created="Mon, 10 Mar 2014 16:45:26 GMT" pgfnum="38833" text=".divTextInFrontOfImage {">
 						<outline text="background-color: white; "></outline>
@@ -140,7 +157,7 @@
 						</outline>
 					<outline text=".divStreamSectionHead {">
 						<outline text="margin-top: 5px;"></outline>
-						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" pgfnum="38478" text="font-weight: bold;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" isComment="true" pgfnum="38478" text="font-weight: bold;"></outline>
 						<outline text="-webkit-margin-after: 5px;"></outline>
 						<outline text="}"></outline>
 						</outline>
@@ -204,7 +221,8 @@
 						<outline created="Sun, 09 Mar 2014 04:07:03 GMT" pgfnum="38712" text="}"></outline>
 						</outline>
 					<outline created="Fri, 07 Mar 2014 17:07:49 GMT" pgfnum="38596" text=".divFargoStreamFooter {">
-						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" pgfnum="38512" text="font-family: &quot;Arial&quot;;"></outline>
+						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" isComment="true" pgfnum="38512" text="font-family: &quot;Arial&quot;;"></outline>
+						<outline text="font-family: 'Ubuntu', sans-serif;"></outline>
 						<outline created="Sun, 09 Mar 2014 22:42:38 GMT" pgfnum="38763" text="line-height: 200%;"></outline>
 						<outline created="Fri, 07 Mar 2014 17:08:00 GMT" pgfnum="38598" text="height: 400px;"></outline>
 						<outline created="Fri, 07 Mar 2014 17:08:05 GMT" pgfnum="38599" text="background-color: whitesmoke;"></outline>
@@ -349,97 +367,183 @@
 							</outline>
 						<outline created="Wed, 05 Mar 2014 16:42:31 GMT" pgfnum="38449" text="}"></outline>
 						</outline>
-					<outline text="function startup () {">
-						<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixarray = 0;"></outline>
-						<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () {">
-							<outline created="Mon, 10 Mar 2014 03:50:00 GMT" pgfnum="38807" text="var flSetColor = true;"></outline>
-							<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
-								<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayImage&quot;) {">
-									<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
-									<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
-									</outline>
-								<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+					<outline text="function initMap (idmap, maplat, maplong, maptype, mapzoom) { ">
+						<outline created="Thu, 26 Dec 2013 18:09:05 GMT" pgfnum="34518" text="var mapCanvas = document.getElementById (idmap);"></outline>
+						<outline created="Thu, 26 Dec 2013 18:09:36 GMT" pgfnum="34523" text="if (mapCanvas != null) {">
+							<outline text="var mapOptions = {">
+								<outline text="center: new google.maps.LatLng (maplat, maplong),"></outline>
+								<outline text="zoom: Number (mapzoom),"></outline>
+								<outline text="panControl: false,"></outline>
+								<outline text="zoomControl: false,"></outline>
+								<outline text="mapTypeControl: false,"></outline>
+								<outline text="scaleControl: false,"></outline>
+								<outline text="streetViewControl :false,"></outline>
+								<outline text="overviewMapControl: false,"></outline>
+								<outline text="rotateControl: false,"></outline>
+								<outline text="mapTypeId: maptype"></outline>
+								<outline text="};"></outline>
 								</outline>
-							<outline created="Mon, 10 Mar 2014 03:50:04 GMT" pgfnum="38808" text="if (flSetColor) {">
-								<outline created="Thu, 06 Mar 2014 22:43:15 GMT" pgfnum="38554" text="this.style.backgroundColor = colorsArray [ixarray++ % colorsArray.length];"></outline>
-								<outline created="Mon, 10 Mar 2014 03:50:09 GMT" pgfnum="38809" text="}"></outline>
-								</outline>
-							<outline created="Mon, 10 Mar 2014 16:53:34 GMT" pgfnum="38836" text="else {">
-								<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
-									<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayText&quot;) {">
-										<outline created="Mon, 10 Mar 2014 17:01:03 GMT" pgfnum="38841" text="var flset = false;"></outline>
-										<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
-											<outline created="Mon, 10 Mar 2014 17:00:49 GMT" pgfnum="38839" text="if (!flset) {">
-												<outline text="this.className = &quot;divTextInFrontOfImage&quot;; //set classname of first child element"></outline>
-												<outline created="Mon, 10 Mar 2014 17:00:55 GMT" pgfnum="38840" text="}"></outline>
-												</outline>
-											<outline created="Mon, 10 Mar 2014 17:00:43 GMT" pgfnum="38838" text="flset = true;"></outline>
-											<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
-											</outline>
-										<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
-										</outline>
-									<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
-									</outline>
-								<outline created="Mon, 10 Mar 2014 16:53:37 GMT" pgfnum="38837" text="}"></outline>
-								</outline>
-							<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
+							<outline text="var map = new google.maps.Map (mapCanvas, mapOptions);"></outline>
+							<outline created="Thu, 26 Dec 2013 18:09:42 GMT" pgfnum="34524" text="}"></outline>
 							</outline>
-						<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38964" text=""></outline>
-						<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38965" text="var hash = window.location.hash;"></outline>
-						<outline created="Tue, 11 Mar 2014 20:27:24 GMT" pgfnum="38979" text="if (hash.length &gt; 0) {">
-							<outline text="var hightlightcolor = &quot;yellow&quot;;"></outline>
-							<outline text="$(&quot;#idTextContainer&quot;).find (&quot;span&quot;).each (function () {">
-								<outline created="Tue, 11 Mar 2014 18:25:25 GMT" pgfnum="38968" text="$(this).children (&quot;a&quot;).each (function () {">
-									<outline created="Tue, 11 Mar 2014 18:26:42 GMT" pgfnum="38973" text="if (string.endsWith (this.href, window.location.hash)) {">
-										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;);"></outline>
-										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;background-color&quot;, hightlightcolor);"></outline>
-										<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
-										<outline created="Tue, 11 Mar 2014 22:46:22 GMT" pgfnum="38981" text=""></outline>
-										<outline created="Tue, 11 Mar 2014 22:50:50 GMT" pgfnum="38989" text="var flexpand = true;"></outline>
-										<outline created="Tue, 11 Mar 2014 22:46:23 GMT" pgfnum="38983" text="$(this).parents (&quot;div&quot;).each (function () {">
-											<outline created="Tue, 11 Mar 2014 22:50:58 GMT" pgfnum="38990" text="if (flexpand) {">
-												<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).children (&quot;a&quot;).each (function () {">
-													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" pgfnum="38992" text="$(this).css (&quot;background-color&quot;, hightlightcolor);"></outline>
-													<outline created="Tue, 11 Mar 2014 23:01:54 GMT" pgfnum="38992" text="$(this).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
-													<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
-													</outline>
-												<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).find (&quot;i&quot;).each (function () {">
-													<outline isComment="true" text="console.log (&quot;this.class == &quot; + $(this).attr (&quot;class&quot;));"></outline>
-													<outline text="if ($(this).attr (&quot;class&quot;) == &quot;fa fa-caret-right&quot;) { //3/20/14 by DW">
-														<outline text="$(this).attr (&quot;class&quot;, &quot;fa fa-caret-down&quot;);"></outline>
-														<outline text="}"></outline>
-														</outline>
-													<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
-													</outline>
-												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;); //the divLevel item"></outline>
-												<outline text=""></outline>
-												<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;background-color&quot;, hightlightcolor); //the divLevel item"></outline>
-												<outline text=""></outline>
-												<outline created="Tue, 11 Mar 2014 22:50:31 GMT" pgfnum="38988" text="flexpand = false;"></outline>
-												<outline created="Tue, 11 Mar 2014 22:51:08 GMT" pgfnum="38991" text="}"></outline>
-												</outline>
-											<outline created="Tue, 11 Mar 2014 22:46:50 GMT" pgfnum="38986" text="});"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text="function startup () {">
+						<outline text="var hightlightcolor = &quot;yellow&quot;;"></outline>
+						<outline text="//every day gets a background color, image, map or -- ??">
+							<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixcolorarray = 0, ctmaps = 0;"></outline>
+							<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () { //look at each divStreamDay">
+								<outline created="Mon, 10 Mar 2014 03:50:00 GMT" pgfnum="38807" text="var flSetColor = true;"></outline>
+								<outline text=""></outline>
+								<outline text="if (getBoolean ($(this).data (&quot;flmapbackground&quot;))) { //it's a map!">
+									<outline text="var idmap = &quot;idFargoMap&quot; + ctmaps++, maplat, maplong, maptype, mapzoom;"></outline>
+									<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
+									<outline created="Thu, 06 Mar 2014 22:43:15 GMT" isComment="true" pgfnum="38554" text="this.style.backgroundColor = &quot;orange&quot;;"></outline>
+									<outline text="$(this).prepend (&quot;&lt;div class=\&quot;divMapCanvas\&quot; id=\&quot;&quot; + idmap + &quot;\&quot;&gt;&lt;/div&gt;&quot;);"></outline>
+									<outline text=""></outline>
+									<outline text="//set up map parameters">
+										<outline text="maplat = $(this).data (&quot;maplatitude&quot;);"></outline>
+										<outline text="if (maplat == undefined) {">
+											<outline text="maplat = pagetable.mapLatitude;"></outline>
+											<outline text="}"></outline>
 											</outline>
-										<outline created="Tue, 11 Mar 2014 18:27:47 GMT" pgfnum="38974" text="}"></outline>
+										<outline text="maplong = $(this).data (&quot;maplongitude&quot;);"></outline>
+										<outline text="if (maplong == undefined) {">
+											<outline text="maplong = pagetable.mapLongitude;"></outline>
+											<outline text="}"></outline>
+											</outline>
+										<outline text="maptype = $(this).data (&quot;maptype&quot;);"></outline>
+										<outline text="if (maptype == undefined) {">
+											<outline text="maptype = pagetable.mapType;"></outline>
+											<outline text="}"></outline>
+											</outline>
+										<outline text="mapzoom = $(this).data (&quot;mapzoom&quot;);"></outline>
+										<outline text="if (mapzoom == undefined) {">
+											<outline text="mapzoom = pagetable.mapZoom;"></outline>
+											<outline text="}"></outline>
+											</outline>
 										</outline>
-									<outline created="Tue, 11 Mar 2014 18:26:06 GMT" pgfnum="38972" text="});"></outline>
+									<outline text=""></outline>
+									<outline text="initMap (idmap, maplat, maplong, maptype, mapzoom);"></outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline text="else {">
+									<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+										<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayImage&quot;) {">
+											<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
+											<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+											</outline>
+										<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+										</outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline text=""></outline>
+								<outline created="Mon, 10 Mar 2014 03:50:04 GMT" pgfnum="38808" text="if (flSetColor) {">
+									<outline created="Thu, 06 Mar 2014 22:43:15 GMT" pgfnum="38554" text="this.style.backgroundColor = colorsArray [ixcolorarray++ % colorsArray.length];"></outline>
+									<outline created="Mon, 10 Mar 2014 03:50:09 GMT" pgfnum="38809" text="}"></outline>
+									</outline>
+								<outline created="Mon, 10 Mar 2014 16:53:34 GMT" pgfnum="38836" text="else {">
+									<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+										<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayText&quot;) {">
+											<outline created="Mon, 10 Mar 2014 17:01:03 GMT" pgfnum="38841" text="var flset = false;"></outline>
+											<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+												<outline created="Mon, 10 Mar 2014 17:00:49 GMT" pgfnum="38839" text="if (!flset) {">
+													<outline text="this.className = &quot;divTextInFrontOfImage&quot;; //set classname of first child element"></outline>
+													<outline created="Mon, 10 Mar 2014 17:00:55 GMT" pgfnum="38840" text="}"></outline>
+													</outline>
+												<outline created="Mon, 10 Mar 2014 17:00:43 GMT" pgfnum="38838" text="flset = true;"></outline>
+												<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+												</outline>
+											<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+											</outline>
+										<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+										</outline>
+									<outline created="Mon, 10 Mar 2014 16:53:37 GMT" pgfnum="38837" text="}"></outline>
 									</outline>
 								<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
 								</outline>
-							<outline created="Tue, 11 Mar 2014 20:27:30 GMT" pgfnum="38980" text="}"></outline>
 							</outline>
-						<outline created="Tue, 11 Mar 2014 14:30:29 GMT" pgfnum="38891" text=""></outline>
-						<outline created="Thu, 13 Mar 2014 20:49:12 GMT" pgfnum="39199" text="if (getBoolean (pagetable.flFixedMenu)) {">
-							<outline created="Sun, 16 Mar 2014 20:23:12 GMT" pgfnum="39448" text="document.body.style.paddingTop = &quot;60px&quot;;"></outline>
-							<outline text="if (hash.length &gt; 0) {">
-								<outline text="$(document).one (&quot;scroll&quot;, function () {">
-									<outline text="var $el = $(this), top = $el.scrollTop ();"></outline>
-									<outline text="$el.scrollTop (top - 60);"></outline>
-									<outline text="});"></outline>
+						<outline text="//highlight and expand the #hashed element, if present">
+							<outline created="Tue, 11 Mar 2014 18:21:56 GMT" pgfnum="38965" text="var hash = window.location.hash;"></outline>
+							<outline created="Tue, 11 Mar 2014 20:27:24 GMT" pgfnum="38979" text="if (hash.length &gt; 0) {">
+								<outline text="$(&quot;#idTextContainer&quot;).find (&quot;span&quot;).each (function () { //look at every span at every level in textcontainer">
+									<outline created="Tue, 11 Mar 2014 18:25:25 GMT" pgfnum="38968" text="$(this).children (&quot;a&quot;).each (function () { //look at first-level children that are anchors">
+										<outline created="Tue, 11 Mar 2014 18:26:42 GMT" pgfnum="38973" text="if (string.endsWith (this.href, window.location.hash)) { //it points to something that ends with this hash ">
+											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;); //make all parents visible"></outline>
+											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;background-color&quot;, hightlightcolor);"></outline>
+											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" isComment="true" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;border&quot;, &quot;1px solid gainsboro&quot;);"></outline>
+											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" isComment="true" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
+											<outline created="Tue, 11 Mar 2014 22:46:22 GMT" pgfnum="38981" text=""></outline>
+											<outline created="Tue, 11 Mar 2014 22:50:50 GMT" pgfnum="38989" text="var flexpand = true;"></outline>
+											<outline created="Tue, 11 Mar 2014 22:46:23 GMT" pgfnum="38983" text="$(this).parents (&quot;div&quot;).each (function () {">
+												<outline created="Tue, 11 Mar 2014 22:50:58 GMT" pgfnum="38990" text="if (flexpand) {">
+													<outline created="Tue, 11 Mar 2014 23:04:11 GMT" pgfnum="38993" text="$(this).children (&quot;a&quot;).each (function () {">
+														<outline created="Tue, 11 Mar 2014 23:01:54 GMT" pgfnum="38992" text="$(this).css (&quot;background-color&quot;, hightlightcolor);"></outline>
+														<outline created="Tue, 11 Mar 2014 23:01:54 GMT" isComment="true" pgfnum="38992" text="$(this).css (&quot;border&quot;, &quot;1px solid gainsboro&quot;);"></outline>
+														<outline created="Tue, 11 Mar 2014 23:01:54 GMT" isComment="true" pgfnum="38992" text="$(this).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
+														<outline text=""></outline>
+														<outline text="$(this).prev ().find (&quot;i&quot;).each (function () {">
+															<outline text="if ($(this).attr (&quot;class&quot;) == &quot;fa fa-caret-right&quot;) { //3/20/14 by DW">
+																<outline text="$(this).attr (&quot;class&quot;, &quot;fa fa-caret-down&quot;);"></outline>
+																<outline text="}"></outline>
+																</outline>
+															<outline text="});"></outline>
+															</outline>
+														<outline text=""></outline>
+														<outline created="Tue, 11 Mar 2014 23:04:11 GMT" isComment="true" pgfnum="38993" text="$(this).find (&quot;i&quot;).each (function () {">
+															<outline isComment="true" text="console.log (&quot;this.class == &quot; + $(this).attr (&quot;class&quot;));"></outline>
+															<outline text="if ($(this).attr (&quot;class&quot;) == &quot;fa fa-caret-right&quot;) { //3/20/14 by DW">
+																<outline text="$(this).attr (&quot;class&quot;, &quot;fa fa-caret-down&quot;);"></outline>
+																<outline text="}"></outline>
+																</outline>
+															<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
+															</outline>
+														<outline created="Tue, 11 Mar 2014 23:04:22 GMT" pgfnum="38994" text="});"></outline>
+														</outline>
+													<outline created="Tue, 11 Mar 2014 22:48:29 GMT" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;); //the divLevel item"></outline>
+													<outline created="Tue, 11 Mar 2014 22:48:29 GMT" isComment="true" pgfnum="38987" text="$(this).next (&quot;div&quot;).css (&quot;background-color&quot;, hightlightcolor); //the divLevel item"></outline>
+													<outline created="Tue, 11 Mar 2014 22:50:31 GMT" pgfnum="38988" text="flexpand = false;"></outline>
+													<outline created="Tue, 11 Mar 2014 22:51:08 GMT" pgfnum="38991" text="}"></outline>
+													</outline>
+												<outline created="Tue, 11 Mar 2014 22:46:50 GMT" pgfnum="38986" text="});"></outline>
+												</outline>
+											<outline created="Tue, 11 Mar 2014 18:27:47 GMT" pgfnum="38974" text="}"></outline>
+											</outline>
+										<outline created="Tue, 11 Mar 2014 18:26:06 GMT" pgfnum="38972" text="});"></outline>
+										</outline>
+									<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
 									</outline>
+								<outline created="Tue, 11 Mar 2014 20:27:30 GMT" pgfnum="38980" text="}"></outline>
+								</outline>
+							</outline>
+						<outline created="Tue, 11 Mar 2014 14:30:29 GMT" pgfnum="38891" text="//handle fixed menu">
+							<outline created="Thu, 13 Mar 2014 20:49:12 GMT" pgfnum="39199" text="if (getBoolean (pagetable.flFixedMenu)) {">
+								<outline created="Sun, 16 Mar 2014 20:23:12 GMT" pgfnum="39448" text="document.body.style.paddingTop = &quot;60px&quot;;"></outline>
+								<outline text="if (hash.length &gt; 0) {">
+									<outline text="$(document).one (&quot;scroll&quot;, function () {">
+										<outline text="var $el = $(this), top = $el.scrollTop ();"></outline>
+										<outline text="$el.scrollTop (top - 125);"></outline>
+										<outline text="});"></outline>
+										</outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline created="Thu, 13 Mar 2014 20:49:22 GMT" pgfnum="39200" text="}"></outline>
+								</outline>
+							</outline>
+						<outline text="//set the site title -- 3/23/14 by DW">
+							<outline text="if (pagetable.menuTitle != undefined) {">
+								<outline text="var pagename;"></outline>
+								<outline text="if (pagetable.path.length == 0) {">
+									<outline text="pagename = &quot;Home&quot;;"></outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline text="else {">
+									<outline text="pagename = pagetable.text;"></outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline text="document.title = &quot;[&quot; + pagetable.menuTitle + &quot;]: &quot; + pagename;"></outline>
 								<outline text="}"></outline>
 								</outline>
-							<outline created="Thu, 13 Mar 2014 20:49:22 GMT" pgfnum="39200" text="}"></outline>
 							</outline>
 						<outline text="}"></outline>
 						</outline>
