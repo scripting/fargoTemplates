@@ -328,6 +328,13 @@
 							<outline created="Tue, 11 Mar 2014 14:51:00 GMT" pgfnum="38895" text="display: none;"></outline>
 							<outline created="Tue, 11 Mar 2014 14:51:04 GMT" pgfnum="38896" text="}"></outline>
 							</outline>
+						<outline created="Tue, 25 Mar 2014 23:03:06 GMT" pgfnum="39927" text=".divPictureViewer .modal {">
+							<outline created="Tue, 25 Mar 2014 23:03:09 GMT" pgfnum="39928" text="left: auto;"></outline>
+							<outline text="width: auto;"></outline>
+							<outline text="margin-left: auto;"></outline>
+							<outline text="margin-right: auto;"></outline>
+							<outline created="Tue, 25 Mar 2014 23:03:12 GMT" pgfnum="39929" text="}"></outline>
+							</outline>
 						<outline text="}"></outline>
 						</outline>
 					<outline created="Sun, 09 Mar 2014 19:11:22 GMT" pgfnum="38720" text="&lt;/style&gt;"></outline>
@@ -340,13 +347,81 @@
 					</outline>
 				<outline created="Wed, 19 Mar 2014 04:34:55 GMT" pgfnum="39529" text=""></outline>
 				<outline text="&lt;script&gt;">
-					<outline created="Thu, 06 Mar 2014 22:37:01 GMT" pgfnum="38539" text="colorsArray = [">
+					<outline created="Tue, 25 Mar 2014 17:02:22 GMT" pgfnum="39899" text="var flSetupDisqusThread = false;"></outline>
+					<outline created="Tue, 25 Mar 2014 17:02:22 GMT" isComment="true" pgfnum="39899" text="var flSetupPictureViewer = false;"></outline>
+					<outline text=""></outline>
+					<outline created="Thu, 06 Mar 2014 22:37:01 GMT" pgfnum="38539" text="var colorsArray = [">
 						<outline created="Thu, 06 Mar 2014 22:39:04 GMT" pgfnum="38546" text="&quot;white&quot;,"></outline>
 						<outline created="Thu, 06 Mar 2014 22:39:28 GMT" pgfnum="38548" text="&quot;whitesmoke&quot;,"></outline>
 						<outline created="Sun, 09 Mar 2014 22:32:38 GMT" pgfnum="38748" text="&quot;ghostwhite&quot;,"></outline>
 						<outline created="Thu, 06 Mar 2014 22:37:55 GMT" pgfnum="38541" text="&quot;gainsboro&quot; "></outline>
 						<outline created="Thu, 06 Mar 2014 22:37:09 GMT" pgfnum="38540" text="];"></outline>
 						</outline>
+					<outline created="Mon, 19 Aug 2013 12:28:34 GMT" pgfnum="29230" text="function closeDisqusThread () {">
+						<outline created="Tue, 23 Apr 2013 16:46:24 GMT" pgfnum="2122" text="$(&quot;#idDisqusDialog&quot;).modal (&quot;hide&quot;);"></outline>
+						<outline created="Mon, 19 Aug 2013 12:28:39 GMT" pgfnum="29231" text="}"></outline>
+						</outline>
+					<outline created="Tue, 25 Mar 2014 15:52:07 GMT" pgfnum="39860" text="function openDisqusThread () {">
+						<outline created="Fri, 07 Jun 2013 15:43:26 GMT" pgfnum="25368" text="function getCommentHtml () {">
+							<outline created="Thu, 30 May 2013 19:36:24 GMT" pgfnum="24794" text="var id = &quot;&quot;, hidingCode  = &quot;&quot;, visibleStyle = &quot;&quot;;"></outline>
+							<outline created="Thu, 30 May 2013 19:36:24 GMT" pgfnum="24795" text="if (pagetable.opmlUrl != undefined) {">
+								<outline text="id += pagetable.opmlUrl;"></outline>
+								<outline created="Thu, 30 May 2013 19:36:51 GMT" pgfnum="24797" text="}"></outline>
+								</outline>
+							<outline created="Thu, 30 May 2013 19:36:24 GMT" pgfnum="24795" text="if (pagetable.created != undefined) {">
+								<outline text="id += pagetable.created;"></outline>
+								<outline created="Thu, 30 May 2013 19:36:51 GMT" pgfnum="24797" text="}"></outline>
+								</outline>
+							<outline created="Thu, 30 May 2013 19:36:24 GMT" pgfnum="24795" text="if (id.length &gt; 0) {">
+								<outline text="id = &quot;&amp;lt;script&gt;var disqus_identifier = \&quot;&quot; + id + &quot;\&quot;;&amp;lt;/script&gt;&quot;;"></outline>
+								<outline created="Thu, 30 May 2013 19:36:51 GMT" pgfnum="24797" text="}"></outline>
+								</outline>
+							<outline created="Wed, 29 May 2013 14:54:06 GMT" pgfnum="24682" text="var code = id + hidingCode + &quot;&amp;lt;div class=\&quot;divDisqusComments\&quot; id=\&quot;idDisqusComments\&quot;&quot; + visibleStyle + &quot;&gt;&amp;lt;div id=\&quot;disqus_thread\&quot;&gt;&amp;lt;/div&gt;&amp;lt;/div&gt;&amp;lt;script type=\&quot;text/javascript\&quot; src=\&quot;http://disqus.com/forums/&quot; + pagetable.disqusGroupName + &quot;/embed.js\&quot;&gt;&amp;lt;/script&gt;&amp;lt;/div&gt;&quot;;"></outline>
+							<outline text="return (code.replace (/&amp;lt;/g,'&lt;'));"></outline>
+							<outline created="Fri, 07 Jun 2013 15:43:45 GMT" pgfnum="25369" text="}"></outline>
+							</outline>
+						<outline created="Tue, 25 Mar 2014 17:05:31 GMT" pgfnum="39905" text="if (!flSetupDisqusThread) {">
+							<outline created="Tue, 25 Mar 2014 17:03:10 GMT" pgfnum="39900" text="var s = ">
+								<outline created="Tue, 25 Mar 2014 17:03:15 GMT" pgfnum="39904" text="&quot;&lt;div id=\&quot;idDisqusDialog\&quot; class=\&quot;modal hide fade\&quot;&gt;&lt;div class=\&quot;modal-body\&quot;&gt;&lt;div class=\&quot;divDisqusBodyText\&quot;&gt;&lt;div id=\&quot;idDisqusCode\&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=\&quot;modal-footer\&quot;&gt;&lt;a href=\&quot;#\&quot; class=\&quot;btn btn-primary\&quot; style=\&quot;width: 70px;\&quot; onclick=\&quot;closeDisqusThread ();\&quot;&gt;Close&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&quot;"></outline>
+								</outline>
+							<outline created="Wed, 27 Feb 2013 16:11:18 GMT" pgfnum="19226" text="$(&quot;body&quot;).prepend (s)"></outline>
+							<outline created="Tue, 25 Mar 2014 17:05:35 GMT" pgfnum="39906" text="flSetupDisqusThread = true;"></outline>
+							<outline created="Tue, 25 Mar 2014 17:05:42 GMT" pgfnum="39907" text="}"></outline>
+							</outline>
+						<outline created="Tue, 25 Mar 2014 16:05:06 GMT" pgfnum="39874" text="$(&quot;#idDisqusCode&quot;).html (getCommentHtml ());"></outline>
+						<outline isComment="true" text="$(&quot;#idDisqusDialog&quot;).on ('shown', function () {">
+							<outline text="$(&quot;#idDisqusDialog&quot;).scrollTop (0);"></outline>
+							<outline text="});"></outline>
+							</outline>
+						<outline created="Tue, 23 Apr 2013 16:46:24 GMT" pgfnum="2122" text="$(&quot;#idDisqusDialog&quot;).modal (&quot;show&quot;);"></outline>
+						<outline created="Tue, 25 Mar 2014 15:52:17 GMT" pgfnum="39864" text="}"></outline>
+						</outline>
+					<outline created="Tue, 25 Mar 2014 16:00:24 GMT" pgfnum="39871" text=""></outline>
+					<outline created="Mon, 19 Aug 2013 12:28:34 GMT" isComment="true" pgfnum="29230" text="function hidePictureViewer () {">
+						<outline created="Tue, 23 Apr 2013 16:46:24 GMT" pgfnum="2122" text="$(&quot;#idPictureViewer&quot;).modal (&quot;hide&quot;);"></outline>
+						<outline created="Mon, 19 Aug 2013 12:28:39 GMT" pgfnum="29231" text="}"></outline>
+						</outline>
+					<outline created="Tue, 25 Mar 2014 15:52:07 GMT" isComment="true" pgfnum="39860" text="function openPictureViewer (urlPic, title) {">
+						<outline created="Tue, 25 Mar 2014 17:05:31 GMT" pgfnum="39905" text="if (!flSetupPictureViewer) {">
+							<outline created="Tue, 25 Mar 2014 17:03:10 GMT" pgfnum="39900" text="var s = ">
+								<outline created="Tue, 25 Mar 2014 17:03:15 GMT" pgfnum="39904" text="&quot;&lt;div class=\&quot;divPictureViewer\&quot;&gt;&lt;div id=\&quot;idPictureViewer\&quot; class=\&quot;modal hide fade\&quot;&gt;&lt;div class=\&quot;modal-body\&quot;&gt;&lt;div class=\&quot;divPictureViewerPicture\&quot; id=\&quot;idPictureViewerPicture\&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=\&quot;modal-footer\&quot;&gt;&lt;a href=\&quot;#\&quot; class=\&quot;btn btn-primary\&quot; onclick=\&quot;hidePictureViewer ();\&quot;&gt;Close&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&quot;"></outline>
+								</outline>
+							<outline created="Wed, 27 Feb 2013 16:11:18 GMT" pgfnum="19226" text="$(&quot;body&quot;).prepend (s)"></outline>
+							<outline created="Tue, 25 Mar 2014 17:05:35 GMT" pgfnum="39906" text="flSetupPictureViewer = true;"></outline>
+							<outline created="Tue, 25 Mar 2014 17:05:42 GMT" pgfnum="39907" text="}"></outline>
+							</outline>
+						<outline created="Tue, 25 Mar 2014 22:23:14 GMT" pgfnum="39913" text=""></outline>
+						<outline created="Tue, 25 Mar 2014 22:23:15 GMT" pgfnum="39914" text="if (title == undefined) {">
+							<outline created="Tue, 25 Mar 2014 22:23:22 GMT" pgfnum="39917" text="title = &quot;Yo mama is fine.&quot;;"></outline>
+							<outline created="Tue, 25 Mar 2014 22:23:31 GMT" pgfnum="39918" text="}"></outline>
+							</outline>
+						<outline created="Tue, 25 Mar 2014 22:23:15 GMT" pgfnum="39915" text=""></outline>
+						<outline created="Tue, 25 Mar 2014 16:05:06 GMT" isComment="true" pgfnum="39874" text="$(&quot;#idPictureViewerTitle&quot;).html (title);"></outline>
+						<outline created="Tue, 25 Mar 2014 16:05:06 GMT" pgfnum="39874" text="$(&quot;#idPictureViewerPicture&quot;).html (&quot;&lt;img src=\&quot;&quot; + urlPic + &quot;\&quot;&gt;&quot;);"></outline>
+						<outline created="Tue, 23 Apr 2013 16:46:24 GMT" pgfnum="2122" text="$(&quot;#idPictureViewer&quot;).modal (&quot;show&quot;);"></outline>
+						<outline created="Tue, 25 Mar 2014 15:52:17 GMT" pgfnum="39864" text="}"></outline>
+						</outline>
+					<outline text=""></outline>
 					<outline created="Wed, 05 Mar 2014 15:12:06 GMT" pgfnum="38421" text="function getdaynum (theDate) {">
 						<outline created="Wed, 05 Mar 2014 15:15:08 GMT" pgfnum="38429" text="var year = theDate.getFullYear ();"></outline>
 						<outline text="var onejan = new Date (year, 0, 1);"></outline>
@@ -518,12 +593,16 @@
 							</outline>
 						<outline created="Tue, 11 Mar 2014 14:30:29 GMT" pgfnum="38891" text="//handle fixed menu">
 							<outline created="Thu, 13 Mar 2014 20:49:12 GMT" pgfnum="39199" text="if (getBoolean (pagetable.flFixedMenu)) {">
-								<outline created="Sun, 16 Mar 2014 20:23:12 GMT" pgfnum="39448" text="document.body.style.paddingTop = &quot;60px&quot;;"></outline>
-								<outline text="if (hash.length &gt; 0) {">
-									<outline text="$(document).one (&quot;scroll&quot;, function () {">
-										<outline text="var $el = $(this), top = $el.scrollTop ();"></outline>
-										<outline text="$el.scrollTop (top - 125);"></outline>
-										<outline text="});"></outline>
+								<outline text="var flhavenav = $(&quot;#idFargoNavbar&quot;).css (&quot;display&quot;) == &quot;block&quot;;"></outline>
+								<outline text="if (flhavenav) {">
+									<outline created="Sun, 16 Mar 2014 20:23:12 GMT" pgfnum="39448" text="document.body.style.paddingTop = &quot;60px&quot;;"></outline>
+									<outline text="if (hash.length &gt; 0) {">
+										<outline text="$(document).one (&quot;scroll&quot;, function () {">
+											<outline text="var $el = $(this), top = $el.scrollTop ();"></outline>
+											<outline text="$el.scrollTop (top - 125);"></outline>
+											<outline text="});"></outline>
+											</outline>
+										<outline text="}"></outline>
 										</outline>
 									<outline text="}"></outline>
 									</outline>
