@@ -11,6 +11,10 @@ Update: Another <a href="http://scripting.com/2014/03/07/myTemplatesAreOpenSourc
 
 Starting on March 18, 2014, we're giving version numbers to releases of Fargo Templates. Makes it easier to refer to updates in the check-in summaries. The first version is 0.40.
 
+#### v0.45 -- 4/7/14 by DW
+
+Because #backgroundImage is always defined, code in the outline template must look for it existing but being empty. Also added Twitter and Facebook metadata to the stream template, following the example of the medium template.
+
 #### v0.44 -- 3/26/14 by DW
 
 Minor fixes and tweaks to the stream template.

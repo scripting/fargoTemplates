@@ -106,7 +106,7 @@
 				<outline created="Sat, 04 Jan 2014 18:28:57 GMT" pgfnum="35309" text="&lt;%userStyles ()%&gt;"></outline>
 				<outline created="Mon, 17 Mar 2014 23:24:51 GMT" pgfnum="39463" text="&lt;script&gt;">
 					<outline created="Mon, 17 Mar 2014 23:24:54 GMT" pgfnum="39464" text="function startupOutlineTemplate () {">
-						<outline created="Mon, 17 Mar 2014 23:25:02 GMT" pgfnum="39466" text="if (pagetable.backgroundImage != undefined) {">
+						<outline created="Mon, 17 Mar 2014 23:25:02 GMT" pgfnum="39466" text="if ((pagetable.backgroundImage != undefined) &amp;&amp; (pagetable.backgroundImage.length &gt; 0)) {">
 							<outline created="Tue, 05 Feb 2013 01:08:38 GMT" pgfnum="18247" text="var textInFront = document.getElementById (&quot;idTextInFrontOfImage&quot;); "></outline>
 							<outline created="Mon, 17 Mar 2014 23:30:34 GMT" pgfnum="39472" text="textInFront.className = &quot;divTextInFrontOfImage&quot;;"></outline>
 							<outline created="Mon, 17 Mar 2014 23:35:52 GMT" pgfnum="39475" text=""></outline>
