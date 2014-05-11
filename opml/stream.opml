@@ -479,6 +479,8 @@
 						</outline>
 					<outline text="function startup () {">
 						<outline text="var hightlightcolor = pagetable.streamHighlightColor; //5/4/14 by DW"></outline>
+						<outline created="Sun, 11 May 2014 23:26:36 GMT" pgfnum="41538" text="var highlightedtitle = undefined; //5/11/14 by DW -- if this gets defined, use it as the title of the page"></outline>
+						<outline created="Sun, 11 May 2014 23:26:49 GMT" pgfnum="41539" text=""></outline>
 						<outline text="//every day gets a background color, image, map or -- ??">
 							<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixcolorarray = 0, ctmaps = 0;"></outline>
 							<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () { //look at each divStreamDay">
@@ -560,6 +562,9 @@
 										<outline created="Tue, 11 Mar 2014 18:26:42 GMT" pgfnum="38973" text="if (string.endsWith (this.href, window.location.hash)) { //it points to something that ends with this hash ">
 											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;div&quot;).css (&quot;display&quot;, &quot;block&quot;); //make all parents visible"></outline>
 											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;background-color&quot;, hightlightcolor);"></outline>
+											<outline created="Sun, 11 May 2014 23:21:58 GMT" pgfnum="41534" text=""></outline>
+											<outline created="Sun, 11 May 2014 23:21:58 GMT" pgfnum="41535" text="highlightedtitle = $(this).parent ().parent ().find (&quot;.aStreamTextLink&quot;).text (); //5/11/14 by DW -- a section of the page is highlighted, use this in the title"></outline>
+											<outline created="Sun, 11 May 2014 23:21:59 GMT" pgfnum="41537" text=""></outline>
 											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" isComment="true" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;border&quot;, &quot;1px solid gainsboro&quot;);"></outline>
 											<outline created="Tue, 11 Mar 2014 18:40:01 GMT" isComment="true" pgfnum="38978" text="$(this).parents (&quot;p&quot;).css (&quot;font-weight&quot;, &quot;bold&quot;);"></outline>
 											<outline created="Tue, 11 Mar 2014 22:46:22 GMT" pgfnum="38981" text=""></outline>
@@ -626,15 +631,24 @@
 						<outline text="//set the site title -- 3/23/14 by DW">
 							<outline text="if (pagetable.menuTitle != undefined) {">
 								<outline text="var pagename;"></outline>
-								<outline text="if (pagetable.path.length == 0) {">
-									<outline text="pagename = &quot;Home&quot;;"></outline>
-									<outline text="}"></outline>
+								<outline created="Sun, 11 May 2014 23:28:12 GMT" pgfnum="41540" text=""></outline>
+								<outline created="Sun, 11 May 2014 23:28:12 GMT" pgfnum="41541" text="if (highlightedtitle != undefined) { //5/11/14 by DW">
+									<outline created="Sun, 11 May 2014 23:28:31 GMT" pgfnum="41547" text="pagename = highlightedtitle;"></outline>
+									<outline created="Sun, 11 May 2014 23:28:20 GMT" pgfnum="41544" text="}"></outline>
 									</outline>
-								<outline text="else {">
-									<outline text="pagename = pagetable.text;"></outline>
-									<outline text="}"></outline>
+								<outline created="Sun, 11 May 2014 23:28:23 GMT" pgfnum="41545" text="else {">
+									<outline text="if (pagetable.path.length == 0) {">
+										<outline text="pagename = &quot;Home&quot;;"></outline>
+										<outline text="}"></outline>
+										</outline>
+									<outline text="else {">
+										<outline text="pagename = pagetable.text;"></outline>
+										<outline text="}"></outline>
+										</outline>
+									<outline created="Sun, 11 May 2014 23:28:25 GMT" pgfnum="41546" text="}"></outline>
 									</outline>
-								<outline text="document.title = &quot;[&quot; + pagetable.menuTitle + &quot;]: &quot; + pagename;"></outline>
+								<outline created="Sun, 11 May 2014 23:28:12 GMT" pgfnum="41543" text=""></outline>
+								<outline text="document.title = pagetable.menuTitle + &quot;: [&quot; + pagename + &quot;]&quot;;"></outline>
 								<outline text="}"></outline>
 								</outline>
 							</outline>

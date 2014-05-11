@@ -11,6 +11,10 @@ Update: Another <a href="http://scripting.com/2014/03/07/myTemplatesAreOpenSourc
 
 Starting on March 18, 2014, we're giving version numbers to releases of Fargo Templates. Makes it easier to refer to updates in the check-in summaries. The first version is 0.40.
 
+#### v0.47 -- 5/11/14 by DW
+
+We now <a href="http://fargo.io/blog/2014/05/11/settingPageTitleOn.html">set the title</a> for deep-linked pages to the title of the article that was cited. 
+
 #### v0.46 -- 5/11/14 by DW
 
 Added support for #streamTextFrameColor to the startup routine in the stream template script code. See this <a href="http://fargo.io/blog/2014/05/11/settingFrameColorOnStreamTypes.html">blog post</a> for more info.
