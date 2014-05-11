@@ -11,6 +11,10 @@ Update: Another <a href="http://scripting.com/2014/03/07/myTemplatesAreOpenSourc
 
 Starting on March 18, 2014, we're giving version numbers to releases of Fargo Templates. Makes it easier to refer to updates in the check-in summaries. The first version is 0.40.
 
+#### v0.46 -- 5/11/14 by DW
+
+Added support for #streamTextFrameColor to the startup routine in the stream template script code. See this <a href="http://fargo.io/blog/2014/05/11/settingFrameColorOnStreamTypes.html">blog post</a> for more info.
+
 #### v0.45 -- 4/7/14 by DW
 
 Because #backgroundImage is now always defined, code in the outline template must look for it existing but being empty. Also added Twitter and Facebook metadata to the stream template, following the example of the medium template.

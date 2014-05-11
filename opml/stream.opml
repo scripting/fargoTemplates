@@ -478,7 +478,7 @@
 						<outline text="}"></outline>
 						</outline>
 					<outline text="function startup () {">
-						<outline text="var hightlightcolor = &quot;yellow&quot;;"></outline>
+						<outline text="var hightlightcolor = pagetable.streamHighlightColor; //5/4/14 by DW"></outline>
 						<outline text="//every day gets a background color, image, map or -- ??">
 							<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixcolorarray = 0, ctmaps = 0;"></outline>
 							<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () { //look at each divStreamDay">
@@ -636,6 +636,12 @@
 									</outline>
 								<outline text="document.title = &quot;[&quot; + pagetable.menuTitle + &quot;]: &quot; + pagename;"></outline>
 								<outline text="}"></outline>
+								</outline>
+							</outline>
+						<outline created="Sun, 11 May 2014 18:07:47 GMT" pgfnum="41504" text="//set the color of each text frame -- 5/11/14 by DW">
+							<outline created="Sun, 11 May 2014 18:20:48 GMT" pgfnum="41507" text="$(&quot;.divTextInFrontOfImage&quot;).each (function () {">
+								<outline created="Tue, 11 Mar 2014 18:40:01 GMT" pgfnum="38978" text="$(this).css (&quot;border&quot;, &quot;2px solid &quot; + pagetable.streamTextFrameColor); "></outline>
+								<outline created="Sun, 11 May 2014 18:20:50 GMT" pgfnum="41508" text="});"></outline>
 								</outline>
 							</outline>
 						<outline text="}"></outline>
