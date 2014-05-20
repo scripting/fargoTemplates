@@ -49,6 +49,18 @@
 						<outline text="line-height: 140%;"></outline>
 						<outline text="}"></outline>
 						</outline>
+					<outline created="Tue, 20 May 2014 21:22:31 GMT" pgfnum="41689" text=".navbar-inner {">
+						<outline created="Tue, 20 May 2014 21:22:36 GMT" pgfnum="41690" text="min-height: 60px;"></outline>
+						<outline created="Tue, 20 May 2014 21:22:41 GMT" pgfnum="41691" text="}"></outline>
+						</outline>
+					<outline text=".navbar .nav &gt; li &gt; a {">
+						<outline text="padding-top: 17px;"></outline>
+						<outline created="Tue, 20 May 2014 21:33:59 GMT" pgfnum="41693" text="}"></outline>
+						</outline>
+					<outline text=".navbar .brand {">
+						<outline text="padding-top: 13px;"></outline>
+						<outline created="Tue, 20 May 2014 21:35:28 GMT" pgfnum="41694" text="}"></outline>
+						</outline>
 					<outline text=".navbar-container {">
 						<outline text="width: 1000px !important;"></outline>
 						<outline text="}"></outline>
@@ -305,6 +317,10 @@
 							<outline created="Sun, 09 Mar 2014 19:31:50 GMT" isComment="true" pgfnum="38743" text="padding-top: 0;"></outline>
 							<outline created="Sun, 09 Mar 2014 19:31:54 GMT" pgfnum="38744" text="}"></outline>
 							</outline>
+						<outline created="Tue, 20 May 2014 22:04:07 GMT" pgfnum="41698" text=".divTextContainer {">
+							<outline created="Tue, 20 May 2014 22:04:14 GMT" pgfnum="41700" text="margin-top: -40px;"></outline>
+							<outline created="Tue, 20 May 2014 22:04:13 GMT" pgfnum="41699" text="}"></outline>
+							</outline>
 						<outline created="Mon, 10 Mar 2014 14:34:50 GMT" pgfnum="38815" text=".divStreamTopSpacer {">
 							<outline created="Mon, 10 Mar 2014 14:34:58 GMT" pgfnum="38817" text="display: none;"></outline>
 							<outline created="Mon, 10 Mar 2014 14:34:53 GMT" pgfnum="38816" text="}"></outline>
@@ -364,12 +380,20 @@
 							<outline text="margin-right: auto;"></outline>
 							<outline created="Tue, 25 Mar 2014 23:03:12 GMT" pgfnum="39929" text="}"></outline>
 							</outline>
+						<outline created="Tue, 20 May 2014 22:02:00 GMT" pgfnum="41695" text=".divLevel {">
+							<outline created="Tue, 20 May 2014 22:02:05 GMT" pgfnum="41697" text="margin-left: 0;"></outline>
+							<outline created="Tue, 20 May 2014 22:02:04 GMT" pgfnum="41696" text="}"></outline>
+							</outline>
 						<outline text="}"></outline>
 						</outline>
 					<outline created="Sun, 09 Mar 2014 19:11:22 GMT" pgfnum="38720" text="&lt;/style&gt;"></outline>
 					</outline>
 				<outline text="&lt;style&gt; /* styles for tablet */">
 					<outline text="@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {">
+						<outline text=".navbar .nav &gt; li &gt; a {">
+							<outline created="Tue, 20 May 2014 22:33:16 GMT" pgfnum="41703" text="padding-right: 7px;"></outline>
+							<outline created="Tue, 20 May 2014 22:33:09 GMT" pgfnum="41702" text="}"></outline>
+							</outline>
 						<outline text="}"></outline>
 						</outline>
 					<outline text="&lt;/style&gt;"></outline>
