@@ -492,11 +492,29 @@
 							</outline>
 						<outline text="}"></outline>
 						</outline>
+					<outline created="Tue, 20 May 2014 18:00:26 GMT" pgfnum="41675" text=""></outline>
 					<outline text="function turnOffImages () { //5/18/14 by DW">
 						<outline text="$(&quot;.divStreamDayImage&quot;).css (&quot;background-image&quot;, &quot;&quot;);"></outline>
 						<outline text="localStorage.flImagesOff = &quot;true&quot;;"></outline>
 						<outline text="}"></outline>
 						</outline>
+					<outline created="Tue, 20 May 2014 18:00:26 GMT" pgfnum="41677" text="function turnOffImagesCommand () {">
+						<outline created="Tue, 20 May 2014 18:00:38 GMT" pgfnum="41683" text="confirmDialog (&quot;Turn off images?&quot;, function () {">
+							<outline text="localStorage.flImagesOff = &quot;true&quot;;"></outline>
+							<outline created="Tue, 20 May 2014 18:03:34 GMT" pgfnum="41688" text="location.reload (true);"></outline>
+							<outline created="Tue, 20 May 2014 18:02:22 GMT" pgfnum="41687" text="});"></outline>
+							</outline>
+						<outline created="Tue, 20 May 2014 18:00:39 GMT" pgfnum="41684" text="}"></outline>
+						</outline>
+					<outline created="Tue, 20 May 2014 18:00:26 GMT" pgfnum="41677" text="function turnOnImagesCommand () {">
+						<outline created="Tue, 20 May 2014 18:00:38 GMT" pgfnum="41683" text="confirmDialog (&quot;Turn images on?&quot;, function () {">
+							<outline text="localStorage.flImagesOff = &quot;false&quot;; "></outline>
+							<outline created="Tue, 20 May 2014 18:03:34 GMT" pgfnum="41688" text="location.reload (true);"></outline>
+							<outline created="Tue, 20 May 2014 18:02:22 GMT" pgfnum="41687" text="});"></outline>
+							</outline>
+						<outline created="Tue, 20 May 2014 18:00:39 GMT" pgfnum="41684" text="}"></outline>
+						</outline>
+					<outline created="Tue, 20 May 2014 18:00:27 GMT" pgfnum="41682" text=""></outline>
 					<outline text="function startup () {">
 						<outline text="var streamVersion = 1; //5/20/14 by DW"></outline>
 						<outline text="var flPlainOutline; //5/20/14 by DW"></outline>
@@ -749,8 +767,12 @@
 						<outline text=""></outline>
 						<outline created="Sun, 18 May 2014 16:04:08 GMT" pgfnum="41646" text="//version 1, turn off images if indicated by flPlainOutline -- 5/18/14 by DW">
 							<outline text="if (streamVersion == 1) { ">
-								<outline created="Sun, 18 May 2014 16:04:25 GMT" pgfnum="41647" text="if (!flPlainOutline) {">
-									<outline created="Sun, 18 May 2014 16:05:00 GMT" pgfnum="41649" text="turnOffImages ();"></outline>
+								<outline created="Sun, 18 May 2014 16:04:25 GMT" pgfnum="41647" text="if (flPlainOutline) {">
+									<outline created="Tue, 20 May 2014 18:01:53 GMT" pgfnum="41685" text="turnOffImages ();"></outline>
+									<outline text="$(&quot;.divStreamDay&quot;).each (function () {">
+										<outline text="$(this).css (&quot;border-top&quot;, &quot;0&quot;);"></outline>
+										<outline text="});"></outline>
+										</outline>
 									<outline created="Sun, 18 May 2014 16:04:48 GMT" pgfnum="41648" text="}"></outline>
 									</outline>
 								<outline text="}"></outline>
