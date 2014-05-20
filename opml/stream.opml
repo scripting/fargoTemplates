@@ -18,11 +18,12 @@
 				<outline created="Sun, 09 Mar 2014 19:05:58 GMT" pgfnum="38716" text=""></outline>
 				<outline text="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;"></outline>
 				<outline created="Sun, 09 Mar 2014 19:05:59 GMT" pgfnum="38718" text=""></outline>
-				<outline isComment="true" text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Abril+Fatface&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
-				<outline isComment="true" text="&lt;link href=&quot;http://fonts.googleapis.com/css?family=Average&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline text="&lt;link href=&quot;http://fargo.io/code/ubuntuFont.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline text="&lt;link href=&quot;http://fargo.io/code/vollkornFont.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
+				<outline text="&lt;link href=&quot;http://fargo.io/code/ranchoFont.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;"></outline>
 				<outline text=""></outline>
-				<outline text="&lt;link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic,700italic' rel='stylesheet' type='text/css'&gt;"></outline>
-				<outline text="&lt;link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'&gt;"></outline>
+				<outline isComment="true" text="&lt;link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic,700italic' rel='stylesheet' type='text/css'&gt;"></outline>
+				<outline isComment="true" text="&lt;link href='http://fonts.googleapis.com/css?family=Vollkorn:400italic,700italic,400,700' rel='stylesheet' type='text/css'&gt;"></outline>
 				<outline created="Mon, 07 Apr 2014 18:18:22 GMT" pgfnum="40006" text=""></outline>
 				<outline text="&lt;meta property=&quot;og:url&quot; content=&quot;&lt;%url%&gt;&quot; /&gt;"></outline>
 				<outline text="&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;"></outline>
@@ -39,10 +40,13 @@
 				<outline text="&lt;meta name=&quot;twitter:site&quot; value=&quot;&lt;%authorTwitterAccount%&gt;&quot;&gt;"></outline>
 				<outline created="Sun, 09 Mar 2014 01:46:54 GMT" pgfnum="38707" text=""></outline>
 				<outline text="&lt;style&gt;">
+					<outline text="body {">
+						<outline text="background-color: whitesmoke;"></outline>
+						<outline text="}"></outline>
+						</outline>
 					<outline text=".navbar {">
-						<outline text="font-family: 'Ubuntu', sans-serif;"></outline>
-						<outline created="Fri, 07 Mar 2014 16:10:29 GMT" pgfnum="38582" text="background-color: white;"></outline>
-						<outline created="Fri, 07 Mar 2014 19:34:24 GMT" pgfnum="38612" text="font-size: 20px;"></outline>
+						<outline created="Fri, 07 Mar 2014 19:34:24 GMT" pgfnum="38612" text="font-size: 17px;"></outline>
+						<outline text="line-height: 140%;"></outline>
 						<outline text="}"></outline>
 						</outline>
 					<outline text=".navbar-container {">
@@ -73,20 +77,22 @@
 						<outline created="Thu, 06 Mar 2014 22:50:16 GMT" pgfnum="38561" text="margin-top: 0;"></outline>
 						<outline created="Fri, 07 Mar 2014 17:08:19 GMT" pgfnum="38600" text="border-top: 1px solid silver;"></outline>
 						<outline created="Mon, 10 Mar 2014 03:13:37 GMT" pgfnum="38786" text="z-index: 0;"></outline>
+						<outline text=""></outline>
+						<outline text="-webkit-background-size: cover;"></outline>
+						<outline text="-moz-background-size: cover;"></outline>
+						<outline text="-o-background-size: cover;"></outline>
+						<outline text="background-size: cover;"></outline>
+						<outline text="background-position: center;"></outline>
+						<outline text="background-repeat: no-repeat;"></outline>
 						<outline created="Thu, 06 Mar 2014 16:05:10 GMT" pgfnum="38510" text="}"></outline>
 						</outline>
 					<outline text=".divStreamDayText {">
-						<outline created="Thu, 06 Mar 2014 16:06:04 GMT" isComment="true" pgfnum="38512" text="font-family: &quot;Average&quot;;"></outline>
 						<outline text="font-family: 'Vollkorn', serif;"></outline>
 						<outline created="Thu, 06 Mar 2014 16:05:56 GMT" pgfnum="38511" text="font-size: 24px;"></outline>
 						<outline created="Thu, 06 Mar 2014 16:08:45 GMT" pgfnum="38517" text="line-height: 145%;"></outline>
 						<outline created="Fri, 07 Mar 2014 19:21:37 GMT" pgfnum="38610" text="padding-top: 5%;"></outline>
 						<outline created="Thu, 06 Mar 2014 17:20:04 GMT" pgfnum="38527" text="padding-bottom: 10%;"></outline>
 						<outline created="Mon, 10 Mar 2014 18:05:01 GMT" pgfnum="38851" text=""></outline>
-						<outline created="Thu, 06 Mar 2014 15:41:13 GMT" isComment="true" pgfnum="38500" text="width: 80%;"></outline>
-						<outline created="Fri, 07 Mar 2014 23:25:05 GMT" isComment="true" pgfnum="38614" text="padding-left: 12.5%;"></outline>
-						<outline created="Fri, 07 Mar 2014 23:25:05 GMT" isComment="true" pgfnum="38614" text="padding-right: 12.5%;"></outline>
-						<outline created="Mon, 10 Mar 2014 18:04:33 GMT" pgfnum="38845" text=""></outline>
 						<outline created="Mon, 10 Mar 2014 18:04:33 GMT" pgfnum="38846" text="width: 700px;"></outline>
 						<outline created="Mon, 10 Mar 2014 18:04:40 GMT" pgfnum="38849" text="margin-left: auto;"></outline>
 						<outline created="Mon, 10 Mar 2014 18:04:44 GMT" pgfnum="38850" text="margin-right: auto;"></outline>
@@ -97,7 +103,6 @@
 						<outline created="Thu, 06 Mar 2014 16:05:10 GMT" pgfnum="38510" text="}"></outline>
 						</outline>
 					<outline created="Wed, 05 Mar 2014 23:44:15 GMT" pgfnum="38479" text=".divStreamDayHead {">
-						<outline isComment="true" text="font-family: &quot;Abril Fatface&quot;;"></outline>
 						<outline text="font-family: 'Ubuntu', sans-serif;"></outline>
 						<outline text="font-size: 36px;"></outline>
 						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" pgfnum="38478" text="font-weight: bold;"></outline>
@@ -131,13 +136,10 @@
 						<outline created="Thu, 26 Dec 2013 18:11:26 GMT" pgfnum="34527" text="}"></outline>
 						</outline>
 					<outline created="Mon, 10 Mar 2014 16:45:26 GMT" pgfnum="38833" text=".divTextInFrontOfImage {">
-						<outline text="background-color: white; "></outline>
-						<outline created="Mon, 10 Mar 2014 16:45:40 GMT" pgfnum="38835" text="opacity: .90;"></outline>
+						<outline text="background-color: whitesmoke; "></outline>
+						<outline created="Mon, 10 Mar 2014 16:45:40 GMT" pgfnum="38835" text="opacity: .98;"></outline>
 						<outline created="Mon, 10 Mar 2014 22:48:36 GMT" pgfnum="38889" text="padding: 1.5em;"></outline>
-						<outline isComment="true" text="padding: 1%; "></outline>
-						<outline created="Mon, 10 Mar 2014 17:12:30 GMT" isComment="true" pgfnum="38844" text="padding-left: 3%;"></outline>
-						<outline created="Mon, 10 Mar 2014 17:12:30 GMT" isComment="true" pgfnum="38844" text="padding-bottom: 3%;"></outline>
-						<outline created="Mon, 10 Mar 2014 17:08:03 GMT" pgfnum="38842" text="border:2px solid whitesmoke;"></outline>
+						<outline created="Mon, 10 Mar 2014 17:08:03 GMT" pgfnum="38842" text="border:2px solid gainsboro;"></outline>
 						<outline created="Mon, 10 Mar 2014 16:45:33 GMT" pgfnum="38834" text="}"></outline>
 						</outline>
 					<outline created="Thu, 06 Mar 2014 23:45:27 GMT" pgfnum="38568" text=".spStreamArrows {">
@@ -170,8 +172,9 @@
 						<outline text="}"></outline>
 						</outline>
 					<outline text=".divStreamSectionHead {">
+						<outline text="font-family: Ubuntu;"></outline>
 						<outline text="margin-top: 5px;"></outline>
-						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" isComment="true" pgfnum="38478" text="font-weight: bold;"></outline>
+						<outline created="Wed, 05 Mar 2014 23:43:33 GMT" pgfnum="38478" text="font-weight: bold;"></outline>
 						<outline text="-webkit-margin-after: 5px;"></outline>
 						<outline text="}"></outline>
 						</outline>
@@ -275,6 +278,18 @@
 						<outline created="Fri, 07 Mar 2014 23:46:38 GMT" pgfnum="38621" text="color: black;"></outline>
 						<outline created="Fri, 07 Mar 2014 23:46:43 GMT" pgfnum="38622" text="text-decoration: none;"></outline>
 						<outline created="Fri, 07 Mar 2014 23:52:27 GMT" pgfnum="38625" text="}"></outline>
+						</outline>
+					<outline text=".divFargoStreamComments {">
+						<outline created="Mon, 10 Mar 2014 18:04:33 GMT" pgfnum="38846" text="width: 700px;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:40 GMT" pgfnum="38849" text="margin-left: auto;"></outline>
+						<outline created="Mon, 10 Mar 2014 18:04:44 GMT" pgfnum="38850" text="margin-right: auto;"></outline>
+						<outline text="margin-bottom: 400px;"></outline>
+						<outline text="margin-top: 10px;"></outline>
+						<outline text="}"></outline>
+						</outline>
+					<outline text=".divDisqusComments { ">
+						<outline text="margin-top: 5px !important;"></outline>
+						<outline text="}"></outline>
 						</outline>
 					<outline text="&lt;/style&gt;"></outline>
 					</outline>
@@ -477,81 +492,111 @@
 							</outline>
 						<outline text="}"></outline>
 						</outline>
+					<outline text="function turnOffImages () { //5/18/14 by DW">
+						<outline text="$(&quot;.divStreamDayImage&quot;).css (&quot;background-image&quot;, &quot;&quot;);"></outline>
+						<outline text="localStorage.flImagesOff = &quot;true&quot;;"></outline>
+						<outline text="}"></outline>
+						</outline>
 					<outline text="function startup () {">
+						<outline text="var streamVersion = 1; //5/20/14 by DW"></outline>
+						<outline text="var flPlainOutline; //5/20/14 by DW"></outline>
 						<outline text="var hightlightcolor = pagetable.streamHighlightColor; //5/4/14 by DW"></outline>
 						<outline created="Sun, 11 May 2014 23:26:36 GMT" pgfnum="41538" text="var highlightedtitle = undefined; //5/11/14 by DW -- if this gets defined, use it as the title of the page"></outline>
-						<outline created="Sun, 11 May 2014 23:26:49 GMT" pgfnum="41539" text=""></outline>
+						<outline text=""></outline>
+						<outline created="Tue, 20 May 2014 12:43:55 GMT" pgfnum="41657" text="//set streamVersion -- 5/20/14 by DW">
+							<outline created="Tue, 20 May 2014 12:44:00 GMT" pgfnum="41658" text="if (pagetable.streamVersion != undefined) {">
+								<outline created="Tue, 20 May 2014 12:44:53 GMT" pgfnum="41660" text="var x = parseInt (pagetable.streamVersion);"></outline>
+								<outline created="Tue, 20 May 2014 12:47:41 GMT" pgfnum="41661" text="if (!isNaN (x)) {">
+									<outline created="Tue, 20 May 2014 12:47:48 GMT" pgfnum="41662" text="streamVersion = x;"></outline>
+									<outline created="Tue, 20 May 2014 12:47:52 GMT" pgfnum="41663" text="}"></outline>
+									</outline>
+								<outline created="Tue, 20 May 2014 12:44:37 GMT" pgfnum="41659" text="}"></outline>
+								</outline>
+							</outline>
+						<outline text="//set flPlainOutline, initialize localStorage.flImagesOff -- 5/20/14 by DW">
+							<outline text="if (localStorage.flImagesOff == undefined) {">
+								<outline created="Tue, 20 May 2014 16:26:13 GMT" pgfnum="41673" text="if (streamVersion &gt; 1) {">
+									<outline text="localStorage.flImagesOff = true;"></outline>
+									<outline created="Tue, 20 May 2014 16:26:20 GMT" pgfnum="41674" text="}"></outline>
+									</outline>
+								<outline text="}"></outline>
+								</outline>
+							<outline text="flPlainOutline = getBoolean (localStorage.flImagesOff);"></outline>
+							</outline>
 						<outline text="//every day gets a background color, image, map or -- ??">
-							<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixcolorarray = 0, ctmaps = 0;"></outline>
-							<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () { //look at each divStreamDay">
-								<outline created="Mon, 10 Mar 2014 03:50:00 GMT" pgfnum="38807" text="var flSetColor = true;"></outline>
-								<outline text=""></outline>
-								<outline text="if (getBoolean ($(this).data (&quot;flmapbackground&quot;))) { //it's a map!">
-									<outline text="var idmap = &quot;idFargoMap&quot; + ctmaps++, maplat, maplong, maptype, mapzoom;"></outline>
-									<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
-									<outline created="Thu, 06 Mar 2014 22:43:15 GMT" isComment="true" pgfnum="38554" text="this.style.backgroundColor = &quot;orange&quot;;"></outline>
-									<outline text="$(this).prepend (&quot;&lt;div class=\&quot;divMapCanvas\&quot; id=\&quot;&quot; + idmap + &quot;\&quot;&gt;&lt;/div&gt;&quot;);"></outline>
+							<outline text="if (!flPlainOutline) {">
+								<outline created="Thu, 06 Mar 2014 22:43:36 GMT" pgfnum="38555" text="var ixcolorarray = 0, ctmaps = 0;"></outline>
+								<outline text="$(&quot;#idTextContainer&quot;).children (&quot;div&quot;).each (function () { //look at each divStreamDay">
+									<outline created="Mon, 10 Mar 2014 03:50:00 GMT" pgfnum="38807" text="var flSetColor = true;"></outline>
 									<outline text=""></outline>
-									<outline text="//set up map parameters">
-										<outline text="maplat = $(this).data (&quot;maplatitude&quot;);"></outline>
-										<outline text="if (maplat == undefined) {">
-											<outline text="maplat = pagetable.mapLatitude;"></outline>
-											<outline text="}"></outline>
-											</outline>
-										<outline text="maplong = $(this).data (&quot;maplongitude&quot;);"></outline>
-										<outline text="if (maplong == undefined) {">
-											<outline text="maplong = pagetable.mapLongitude;"></outline>
-											<outline text="}"></outline>
-											</outline>
-										<outline text="maptype = $(this).data (&quot;maptype&quot;);"></outline>
-										<outline text="if (maptype == undefined) {">
-											<outline text="maptype = pagetable.mapType;"></outline>
-											<outline text="}"></outline>
-											</outline>
-										<outline text="mapzoom = $(this).data (&quot;mapzoom&quot;);"></outline>
-										<outline text="if (mapzoom == undefined) {">
-											<outline text="mapzoom = pagetable.mapZoom;"></outline>
-											<outline text="}"></outline>
-											</outline>
-										</outline>
-									<outline text=""></outline>
-									<outline text="initMap (idmap, maplat, maplong, maptype, mapzoom);"></outline>
-									<outline text="}"></outline>
-									</outline>
-								<outline text="else {">
-									<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
-										<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayImage&quot;) {">
-											<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
-											<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
-											</outline>
-										<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
-										</outline>
-									<outline text="}"></outline>
-									</outline>
-								<outline text=""></outline>
-								<outline created="Mon, 10 Mar 2014 03:50:04 GMT" pgfnum="38808" text="if (flSetColor) {">
-									<outline created="Thu, 06 Mar 2014 22:43:15 GMT" pgfnum="38554" text="this.style.backgroundColor = colorsArray [ixcolorarray++ % colorsArray.length];"></outline>
-									<outline created="Mon, 10 Mar 2014 03:50:09 GMT" pgfnum="38809" text="}"></outline>
-									</outline>
-								<outline created="Mon, 10 Mar 2014 16:53:34 GMT" pgfnum="38836" text="else {">
-									<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
-										<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayText&quot;) {">
-											<outline created="Mon, 10 Mar 2014 17:01:03 GMT" pgfnum="38841" text="var flset = false;"></outline>
-											<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
-												<outline created="Mon, 10 Mar 2014 17:00:49 GMT" pgfnum="38839" text="if (!flset) {">
-													<outline text="this.className = &quot;divTextInFrontOfImage&quot;; //set classname of first child element"></outline>
-													<outline created="Mon, 10 Mar 2014 17:00:55 GMT" pgfnum="38840" text="}"></outline>
-													</outline>
-												<outline created="Mon, 10 Mar 2014 17:00:43 GMT" pgfnum="38838" text="flset = true;"></outline>
-												<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+									<outline text="if (getBoolean ($(this).data (&quot;flmapbackground&quot;))) { //it's a map!">
+										<outline text="var idmap = &quot;idFargoMap&quot; + ctmaps++, maplat, maplong, maptype, mapzoom;"></outline>
+										<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
+										<outline created="Thu, 06 Mar 2014 22:43:15 GMT" isComment="true" pgfnum="38554" text="this.style.backgroundColor = &quot;orange&quot;;"></outline>
+										<outline text="$(this).prepend (&quot;&lt;div class=\&quot;divMapCanvas\&quot; id=\&quot;&quot; + idmap + &quot;\&quot;&gt;&lt;/div&gt;&quot;);"></outline>
+										<outline text=""></outline>
+										<outline text="//set up map parameters">
+											<outline text="maplat = $(this).data (&quot;maplatitude&quot;);"></outline>
+											<outline text="if (maplat == undefined) {">
+												<outline text="maplat = pagetable.mapLatitude;"></outline>
+												<outline text="}"></outline>
 												</outline>
-											<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+											<outline text="maplong = $(this).data (&quot;maplongitude&quot;);"></outline>
+											<outline text="if (maplong == undefined) {">
+												<outline text="maplong = pagetable.mapLongitude;"></outline>
+												<outline text="}"></outline>
+												</outline>
+											<outline text="maptype = $(this).data (&quot;maptype&quot;);"></outline>
+											<outline text="if (maptype == undefined) {">
+												<outline text="maptype = pagetable.mapType;"></outline>
+												<outline text="}"></outline>
+												</outline>
+											<outline text="mapzoom = $(this).data (&quot;mapzoom&quot;);"></outline>
+											<outline text="if (mapzoom == undefined) {">
+												<outline text="mapzoom = pagetable.mapZoom;"></outline>
+												<outline text="}"></outline>
+												</outline>
 											</outline>
-										<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+										<outline text=""></outline>
+										<outline text="initMap (idmap, maplat, maplong, maptype, mapzoom);"></outline>
+										<outline text="}"></outline>
 										</outline>
-									<outline created="Mon, 10 Mar 2014 16:53:37 GMT" pgfnum="38837" text="}"></outline>
+									<outline text="else {">
+										<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+											<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayImage&quot;) {">
+												<outline created="Mon, 10 Mar 2014 03:49:46 GMT" pgfnum="38806" text="flSetColor = false;"></outline>
+												<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+												</outline>
+											<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+											</outline>
+										<outline text="}"></outline>
+										</outline>
+									<outline text=""></outline>
+									<outline created="Mon, 10 Mar 2014 03:50:04 GMT" pgfnum="38808" text="if (flSetColor) {">
+										<outline created="Thu, 06 Mar 2014 22:43:15 GMT" pgfnum="38554" text="this.style.backgroundColor = colorsArray [ixcolorarray++ % colorsArray.length];"></outline>
+										<outline created="Mon, 10 Mar 2014 03:50:09 GMT" pgfnum="38809" text="}"></outline>
+										</outline>
+									<outline created="Mon, 10 Mar 2014 16:53:34 GMT" pgfnum="38836" text="else {">
+										<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+											<outline created="Mon, 10 Mar 2014 03:48:35 GMT" pgfnum="38804" text="if (this.className == &quot;divStreamDayText&quot;) {">
+												<outline created="Mon, 10 Mar 2014 17:01:03 GMT" pgfnum="38841" text="var flset = false;"></outline>
+												<outline created="Mon, 10 Mar 2014 03:48:13 GMT" pgfnum="38801" text="$(this).children (&quot;div&quot;).each (function () {">
+													<outline created="Mon, 10 Mar 2014 17:00:49 GMT" pgfnum="38839" text="if (!flset) {">
+														<outline text="this.className = &quot;divTextInFrontOfImage&quot;; //set classname of first child element"></outline>
+														<outline created="Mon, 10 Mar 2014 17:00:55 GMT" pgfnum="38840" text="}"></outline>
+														</outline>
+													<outline created="Mon, 10 Mar 2014 17:00:43 GMT" pgfnum="38838" text="flset = true;"></outline>
+													<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+													</outline>
+												<outline created="Mon, 10 Mar 2014 03:49:17 GMT" pgfnum="38805" text="}"></outline>
+												</outline>
+											<outline created="Mon, 10 Mar 2014 03:48:30 GMT" pgfnum="38803" text="});"></outline>
+											</outline>
+										<outline created="Mon, 10 Mar 2014 16:53:37 GMT" pgfnum="38837" text="}"></outline>
+										</outline>
+									<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
 									</outline>
-								<outline created="Wed, 20 Nov 2013 22:45:43 GMT" pgfnum="31936" text="});"></outline>
+								<outline text="}"></outline>
 								</outline>
 							</outline>
 						<outline text="//highlight and expand the #hashed element, if present">
@@ -658,6 +703,59 @@
 								<outline created="Sun, 11 May 2014 18:20:50 GMT" pgfnum="41508" text="});"></outline>
 								</outline>
 							</outline>
+						<outline text=""></outline>
+						<outline text="//turn on images for v2 or greater -- 5/20/14 by DW">
+							<outline text="if (streamVersion &gt; 1) { ">
+								<outline text="if (flPlainOutline) {">
+									<outline text="$(&quot;.aStreamDayLink&quot;).each (function () {">
+										<outline text="$(this).css (&quot;font-size&quot;, &quot;28px&quot;);"></outline>
+										<outline text="});"></outline>
+										</outline>
+									<outline text="$(&quot;.divStreamDay&quot;).each (function () {">
+										<outline text="$(this).css (&quot;border-top&quot;, &quot;0&quot;);"></outline>
+										<outline text="$(this).css (&quot;margin-top&quot;, &quot;70px&quot;);"></outline>
+										<outline text="});"></outline>
+										</outline>
+									<outline text="$(&quot;.divStreamDayText&quot;).each (function () {">
+										<outline text="$(this).css (&quot;padding&quot;, &quot;0&quot;);"></outline>
+										<outline text="});"></outline>
+										</outline>
+									<outline text="$(&quot;.divTextContainer&quot;).each (function () {">
+										<outline text="$(this).css (&quot;margin-bottom&quot;, &quot;125px&quot;);"></outline>
+										<outline text="});"></outline>
+										</outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline text="else {">
+									<outline text="$(&quot;.divStreamDay&quot;).each (function () {">
+										<outline text="var url = $(this).data (&quot;backgroundimage&quot;);"></outline>
+										<outline text="if (url != undefined) {">
+											<outline text="$(this).css (&quot;background-image&quot;, &quot;url('&quot; + url + &quot;')&quot;);"></outline>
+											<outline text="}"></outline>
+											</outline>
+										<outline text=""></outline>
+										<outline text="$(this).children (&quot;.divStreamDayText&quot;).children ().each (function () {">
+											<outline text="this.className = &quot;divTextInFrontOfImage&quot;; "></outline>
+											<outline text="});"></outline>
+											</outline>
+										<outline text=""></outline>
+										<outline text="});"></outline>
+										</outline>
+									<outline text="}"></outline>
+									</outline>
+								<outline text="}"></outline>
+								</outline>
+							</outline>
+						<outline text=""></outline>
+						<outline created="Sun, 18 May 2014 16:04:08 GMT" pgfnum="41646" text="//version 1, turn off images if indicated by flPlainOutline -- 5/18/14 by DW">
+							<outline text="if (streamVersion == 1) { ">
+								<outline created="Sun, 18 May 2014 16:04:25 GMT" pgfnum="41647" text="if (!flPlainOutline) {">
+									<outline created="Sun, 18 May 2014 16:05:00 GMT" pgfnum="41649" text="turnOffImages ();"></outline>
+									<outline created="Sun, 18 May 2014 16:04:48 GMT" pgfnum="41648" text="}"></outline>
+									</outline>
+								<outline text="}"></outline>
+								</outline>
+							</outline>
 						<outline text="}"></outline>
 						</outline>
 					<outline text="&lt;/script&gt;"></outline>
@@ -668,9 +766,8 @@
 				<outline text="&lt;/head&gt;"></outline>
 				</outline>
 			<outline text="&lt;body&gt;">
-				<outline created="Wed, 25 Dec 2013 00:29:58 GMT" isComment="true" pgfnum="34474" text="&lt;div class=&quot;divFargoSocialMediaLinks&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/div&gt;"></outline>
 				<outline text="&lt;%menu ()%&gt;"></outline>
-				<outline text="&lt;div class=&quot;divFargoStreamBody&quot; id=&quot;idFargoStreamBody&quot;&gt;">
+				<outline isComment="true" text="&lt;div class=&quot;divFargoStreamBody&quot; id=&quot;idFargoStreamBody&quot;&gt;">
 					<outline isComment="true" text="&lt;div class=&quot;divBanner&quot;&gt;">
 						<outline text="&lt;img id=&quot;idBannerImage&quot; height=&quot;250&quot; width=&quot;637&quot; alt=&quot;Scripting News banner&quot;&gt;"></outline>
 						<outline text="&lt;/div&gt;"></outline>
@@ -684,11 +781,19 @@
 						</outline>
 					<outline text="&lt;/div&gt;"></outline>
 					</outline>
+				<outline text="&lt;div class=&quot;divTextContainer&quot; id=&quot;idTextContainer&quot;&gt;">
+					<outline text="&lt;%bodytext%&gt;"></outline>
+					<outline text="&lt;/div&gt;"></outline>
+					</outline>
 				<outline created="Fri, 07 Mar 2014 17:06:45 GMT" pgfnum="38593" text="&lt;div class=&quot;divFargoStreamFooter&quot;&gt;">
 					<outline created="Fri, 07 Mar 2014 19:37:04 GMT" pgfnum="38613" text="&lt;div&gt;&lt;%copyright%&gt;&lt;/div&gt;"></outline>
 					<outline text="&lt;div&gt;Last update: &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;.&lt;/div&gt;"></outline>
 					<outline text="&lt;div&gt;&lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/div&gt;"></outline>
 					<outline created="Fri, 07 Mar 2014 17:18:48 GMT" pgfnum="38607" text="&lt;div style=&quot;letter-spacing: 12px; font-size: 1.2em; margin-top: 5px;&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/div&gt;"></outline>
+					<outline isComment="true" text="&lt;div class=&quot;divFargoStreamComments&quot;&gt;">
+						<outline text="&lt;%disqusComments ()%&gt;"></outline>
+						<outline text="&lt;/div&gt;"></outline>
+						</outline>
 					<outline created="Fri, 07 Mar 2014 17:07:01 GMT" pgfnum="38595" text="&lt;/div&gt;"></outline>
 					</outline>
 				<outline text="&lt;script&gt;">
