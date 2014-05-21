@@ -11,6 +11,10 @@ Update: Another <a href="http://scripting.com/2014/03/07/myTemplatesAreOpenSourc
 
 Starting on March 18, 2014, we're giving version numbers to releases of Fargo Templates. Makes it easier to refer to updates in the check-in summaries. The first version is 0.40.
 
+#### v0.49 -- 5/21/14 by DW
+
+Fixes and tweaks for the stream template after the big changes in 0.48.
+
 #### v0.48 -- 5/20/14 by DW
 
 New version of stream template for <a href="http://fargo.io/blog/2014/05/20/fargo159.html">Fargo 1.59</a>.
