@@ -833,7 +833,7 @@
 						<outline text="&lt;div&gt;Last update: &lt;%formatDate (pagetable.now, &quot;%a, %b %e, %Y at %l:%M %p&quot;)%&gt;.&lt;/div&gt;"></outline>
 						<outline text="&lt;div&gt;&lt;i&gt;&lt;%slogan ()%&gt;&lt;/i&gt;&lt;/div&gt;"></outline>
 						<outline created="Fri, 07 Mar 2014 17:18:48 GMT" pgfnum="38607" text="&lt;div style=&quot;letter-spacing: 12px; font-size: 1.2em; margin-top: 5px;&quot;&gt;&lt;%socialMediaLinks ()%&gt;&lt;/div&gt;"></outline>
-						<outline created="Fri, 07 Mar 2014 17:18:48 GMT" pgfnum="38607" text="&lt;div style=&quot;letter-spacing: 12px; font-size: 1.2em; margin-top: 5px;&quot;&gt;WE MAKE SHITTY&lt;/div&gt;"></outline>
+						<outline created="Fri, 07 Mar 2014 17:18:48 GMT" isComment="true" pgfnum="38607" text="&lt;div style=&quot;letter-spacing: 12px; font-size: 1.2em; margin-top: 5px;&quot;&gt;WE MAKE SHITTY&lt;/div&gt;"></outline>
 						<outline created="Fri, 07 Mar 2014 17:07:01 GMT" pgfnum="38595" text="&lt;/div&gt;"></outline>
 						</outline>
 					<outline text="&lt;/div&gt;"></outline>
